@@ -5,7 +5,7 @@ export default function WorldMap() {
     <div className="relative">
       <div className="relative aspect-[2/1] overflow-hidden rounded-lg mb-6">
         <video
-          src="/videos/dr-kumar.mp4"
+          src="d/dr-kumar.mp4"
           autoPlay
           loop
           muted

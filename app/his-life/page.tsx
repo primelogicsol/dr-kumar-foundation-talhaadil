@@ -75,76 +75,65 @@ export default function HisLifePage() {
                   <h3 className="font-serif text-xl font-bold mb-4">Key Life Events</h3>
                   <ul className="space-y-4">
                     <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">1935</div>
-                      <div>Born in Kashmir, India</div>
+                      <div className="font-bold min-w-[60px]">1957</div>
+                      <div>Born in Ganderbal Kashmir, India</div>
                     </li>
                     <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">1958</div>
-                      <div>Completed medical education</div>
-                    </li>
-                    <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">1968</div>
+                      <div className="font-bold min-w-[60px]">1975</div>
                       <div>Spiritual awakening and crisis</div>
                     </li>
                     <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">1970</div>
+                      <div className="font-bold min-w-[60px]">1981</div>
+                      <div>Completed medical education</div>
+                    </li>
+                    <li className="flex gap-3">
+                      <div className="font-bold min-w-[60px]">1983</div>
                       <div>Abandoned medical practice</div>
                     </li>
                     <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">1970-84</div>
+                      <div className="font-bold min-w-[60px]">1983-97</div>
                       <div>14 years in silence in Ganderbal</div>
                     </li>
                     <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">1984</div>
+                      <div className="font-bold min-w-[60px]">1998</div>
                       <div>Return as a Qalandar</div>
                     </li>
                     <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">1985-98</div>
-                      <div>Teaching and healing across Kashmir</div>
+                      <div className="font-bold min-w-[60px]">1999-till today</div>
+                      <div>Started teaching and healing</div>
                     </li>
+
                     <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">1998</div>
-                      <div>First international journey</div>
-                    </li>
-                    <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">2005</div>
+                      <div className="font-bold min-w-[60px]">2022</div>
                       <div>Established Sufi Science Center (USA)</div>
                     </li>
                     <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">2012</div>
-                      <div>Passed from physical form</div>
+                      <div className="font-bold min-w-[60px]">2024</div>
+                      <div>Established Sufi Pulse</div>
                     </li>
+                    <li className="flex gap-3">
+                      <div className="font-bold min-w-[60px]">2025</div>
+                      <div>Established Dr. Kumar Foundation (USA)</div>
+                    </li>
+
                   </ul>
                 </CardContent>
               </Card>
 
-              <Card className="mt-6">
+              <Card className="mt-6 shadow-md rounded-2xl border border-gray-200">
                 <CardContent className="p-6">
-                  <h3 className="font-serif text-xl font-bold mb-4">Related Resources</h3>
-                  <ul className="space-y-2">
-                    <li>
-                      <Link href="/media-library/the-silent-healer" className="text-primary hover:underline">
-                        Documentary: The Silent Healer
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/publications/biography" className="text-primary hover:underline">
-                        Complete Biography Book
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/media-library/memories-of-the-master" className="text-primary hover:underline">
-                        Interviews with Students
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/media-library/sacred-land-of-kashmir" className="text-primary hover:underline">
-                        Documentary: Sacred Land of Kashmir
-                      </Link>
-                    </li>
-                  </ul>
+                  <h3 className="font-serif text-2xl font-semibold text-emerald-600 mb-4">
+                    In Devotion and Continuity
+                  </h3>
+                  <blockquote className="italic text-lg leading-relaxed text-gray-700 border-l-4 border-emerald-600 pl-4">
+                    “This work is not history, but a living bridge. As his disciple, I have tried to carry Dr. Kumar’s light into the language of our times, so new seekers may walk the same path of silence and awakening.”
+                  </blockquote>
+                  <p className="mt-4 text-right font-medium text-gray-600">
+                    — Disciple <span className="font-semibold">Dr Zarf-e-Noori</span>
+                  </p>
                 </CardContent>
               </Card>
+
             </div>
           </div>
         </div>
@@ -163,7 +152,7 @@ export default function HisLifePage() {
             <h2 className="font-serif text-3xl font-bold mb-6">14 Years in Silence</h2>
             <div className="relative aspect-video mb-8">
               <Image
-                src="/placeholder.svg?height=720&width=1280"
+                src="/14-silence.png"
                 alt="The jungle of Ganderbal where Dr. Kumar spent 14 years in silence"
                 fill
                 className="object-cover rounded-lg"
