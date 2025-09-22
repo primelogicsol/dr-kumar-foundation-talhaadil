@@ -70,11 +70,7 @@ export default function SiteFooter() {
             <div>
               <h3 className="font-medium mb-3">Connect</h3>
               <ul className="space-y-2">
-                <li>
-                  <Link href="/get-involved" className="text-muted-foreground hover:text-foreground">
-                    Get Involved
-                  </Link>
-                </li>
+                
                 <li>
                   <Link href="/contact" className="text-muted-foreground hover:text-foreground">
                     Contact

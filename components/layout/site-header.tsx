@@ -26,7 +26,6 @@ export default function SiteHeader() {
     { name: "Legacy & Projects", path: "/projects" },
     { name: "Sufi Science Center", path: "/sufi-science" }, // Updated text
     { name: "SufiPulse Media", path: "/media-library" },
-    { name: "Get Involved", path: "/get-involved" },
     { name: "Contact", path: "/contact" },
   ]
 
