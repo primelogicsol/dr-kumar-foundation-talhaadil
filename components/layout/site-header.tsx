@@ -28,13 +28,13 @@ export default function SiteHeader() {
     { name: "SufiPulse Media", path: "/media-library" },
     { name: "Contact", path: "/contact" },
   ]
-
+  
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/placeholder.svg?height=40&width=40"
+            src="/placehol.svg?height=40&width=40"
             alt="Dr. Kumar Foundation Logo"
             width={40}
             height={40}
