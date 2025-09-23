@@ -377,7 +377,7 @@ export default function SufiSciencePage() {
                 <h3 className="font-serif text-xl font-bold mb-2">Dialog Series</h3>
                 <p className="text-sm text-muted-foreground mb-4">
 
-Dive into timeless commentaries, Sufi manuscripts, and contemporary reflections merging wisdom with modern inquiry.
+                  Dive into timeless commentaries, Sufi manuscripts, and contemporary reflections merging wisdom with modern inquiry.
 
 
                 </p>
@@ -401,7 +401,7 @@ Dive into timeless commentaries, Sufi manuscripts, and contemporary reflections 
               <CardContent className="p-6">
                 <h3 className="font-serif text-xl font-bold mb-2">Hard Talk</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                Explore sacred diagrams, cosmic maps, and interactive infographics that visualize mystical concepts in scientifically resonant design.
+                  Explore sacred diagrams, cosmic maps, and interactive infographics that visualize mystical concepts in scientifically resonant design.
                 </p>
                 <Button variant="outline" size="sm" asChild>
                   <a href="https://sufisciencecenter.info/academy/hardtalk" target="_blank" rel="noopener noreferrer">
@@ -425,7 +425,7 @@ Dive into timeless commentaries, Sufi manuscripts, and contemporary reflections 
               <CardContent className="p-6">
                 <h3 className="font-serif text-xl font-bold mb-2">Inspiring Interview</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                In this series, you’ll meet individuals whose lives have been radically reshaped by the essence of Sufism.
+                  In this inspiring series, you’ll meet individuals whose lives have been radically reshaped and changed by the essence of Sufism.
                 </p>
                 <Button variant="outline" size="sm" asChild>
                   <a href="https://sufisciencecenter.info/academy/inspiringinterview" target="_blank" rel="noopener noreferrer">

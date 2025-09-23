@@ -262,59 +262,28 @@ export default function TeachingsPage() {
           <h2 className="font-serif text-3xl font-bold text-center mb-12">Related Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Link href="https://sufisciencecenter.info/beginyourjourney" className="block">
-              <div className="group relative overflow-hidden rounded-lg aspect-[3/4]">
-                <Image
-                  src="/placeholder.svg?height=800&width=600"
-                  alt="Start Your Sufism Journey"
-                  fill
-                  className="object-cover transition-transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
-                  <div className="p-6 text-white">
-                    <h3 className="font-serif text-xl font-bold mb-2">Start Your Sufism Journey</h3>
-                    <p>Awaken your heart, embrace silence, begin the timeless path.</p>
-                  </div>
-                </div>
+            <a href="https://sufisciencecenter.info/beginyourjourney" className="block">
+              <div className="group relative rounded-lg bg-white dark:bg-gray-800 p-6 shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="font-serif text-xl font-bold mb-2 text-gray-900 dark:text-white">Start Your Sufism Journey</h3>
+                <p className="text-gray-600 dark:text-gray-300">Awaken your heart, embrace silence, begin the timeless path.</p>
               </div>
-            </Link>
+            </a>
 
-            <Link href="https://sufisciencecenter.info/corelearningpaths" className="block">
-              <div className="group relative overflow-hidden rounded-lg aspect-[3/4]">
-                <Image
-                  src="/placeholder.svg?height=800&width=600"
-                  alt="Beginner's Checklist for the Sufi Journey"
-                  fill
-                  className="object-cover transition-transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
-                  <div className="p-6 text-white">
-                    <h3 className="font-serif text-xl font-bold mb-2">Beginner's Checklist</h3>
-                    <p>Practical steps guiding seekers toward presence, wisdom, and awakening.</p>
-                  </div>
-                </div>
+            <a href="https://sufisciencecenter.info/corelearningpaths" className="block">
+              <div className="group relative rounded-lg bg-white dark:bg-gray-800 p-6 shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="font-serif text-xl font-bold mb-2 text-gray-900 dark:text-white">Beginner's Checklist</h3>
+                <p className="text-gray-600 dark:text-gray-300">Practical steps guiding seekers toward presence, wisdom, and awakening.</p>
               </div>
-            </Link>
+            </a>
 
-            <Link href="https://sufisciencecenter.info/leadership&teaching" className="block">
-              <div className="group relative overflow-hidden rounded-lg aspect-[3/4]">
-                <Image
-                  src="/placeholder.svg?height=800&width=600"
-                  alt="Personalized Teaching Path Assessment"
-                  fill
-                  className="object-cover transition-transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
-                  <div className="p-6 text-white">
-                    <h3 className="font-serif text-xl font-bold mb-4">Personalized Path Assessment</h3>
-                    <p>Discover your unique path, guided by Sufi wisdom.</p>
-                  </div>
-                </div>
+            <a href="https://sufisciencecenter.info/leadership&teaching" className="block">
+              <div className="group relative rounded-lg bg-white dark:bg-gray-800 p-6 shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="font-serif text-xl font-bold mb-2 text-gray-900 dark:text-white">Personalized Path Assessment</h3>
+                <p className="text-gray-600 dark:text-gray-300">Discover your unique path, guided by Sufi wisdom.</p>
               </div>
-            </Link>
+            </a>
           </div>
         </div>
-      </section>
-    </div>
+      </section>   </div>
   )
 }
