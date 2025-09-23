@@ -53,7 +53,7 @@ export default function TeachingsPage() {
                 </div>
                 <div className="relative aspect-square">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/Drpic1_11zon.webp?height=600&width=600"
                     alt="Visual representation of Fana - spiritual dissolution"
                     fill
                     className="object-cover rounded-lg"
@@ -64,7 +64,7 @@ export default function TeachingsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div className="order-2 md:order-1 relative aspect-square">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/Drpic4_11zon.webp?height=600&width=600"
                     alt="Visual representation of Baqa - subsistence in the Divine"
                     fill
                     className="object-cover rounded-lg"
@@ -126,7 +126,7 @@ export default function TeachingsPage() {
                 </div>
                 <div className="relative aspect-square">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/Drpic6_11zon.webp?height=600&width=600"
                     alt="Representation of the Qalandari path"
                     fill
                     className="object-cover rounded-lg"
@@ -151,7 +151,7 @@ export default function TeachingsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div className="order-2 md:order-1 relative aspect-square">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/Drpic5_11zon.webp?height=600&width=600"
                     alt="Representation of presence and awareness"
                     fill
                     className="object-cover rounded-lg"
@@ -198,7 +198,7 @@ export default function TeachingsPage() {
                 </div>
                 <div className="relative aspect-square">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/Drpic3_11zon.webp?height=600&width=600"
                     alt="Representation of Divine Healing"
                     fill
                     className="object-cover rounded-lg"
@@ -223,7 +223,7 @@ export default function TeachingsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div className="order-2 md:order-1 relative aspect-square">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/Drpic2_11zon.webp?height=600&width=600"
                     alt="Self-healing practices"
                     fill
                     className="object-cover rounded-lg"
