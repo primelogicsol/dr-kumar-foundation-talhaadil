@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 import QuoteCarousel from "@/components/quote-carousel"
 import PageHeader from "@/components/page-header"
-
+import { Card, CardContent } from "@/components/ui/card"
 
 
 export default function TeachingsPage() {
@@ -284,6 +284,7 @@ export default function TeachingsPage() {
             </a>
           </div>
         </div>
+
       </section>   </div>
   )
 }
