@@ -60,47 +60,38 @@ export default function SufiSciencePage() {
               />
             </div>
           </div>
-
           <div className="max-w-4xl mx-auto">
             <h2 className="font-serif text-3xl font-bold text-center mb-8">Key Areas of Research</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
               <Card>
                 <CardContent className="p-6">
-                  <h3 className="font-serif text-xl font-bold mb-4">Consciousness Studies</h3>
+                  <h3 className="font-serif text-xl font-bold mb-4">Bridging Generations</h3>
                   <p>
-                    Exploring the nature of awareness, the relationship between consciousness and the brain, and states
-                    of consciousness described in mystical traditions. This includes research on meditation, non-dual
-                    awareness, and the effects of spiritual practices on brain function.
+                    Connecting new-generation scientists—physicists, neuroscientists, ecologists, and healers—with Sufi seekers and mystics. They exchange perspectives to explore how traditional wisdom and contemporary research can address humanity’s deepest questions and future challenges with shared vision.
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6">
-                  <h3 className="font-serif text-xl font-bold mb-4">Healing Research</h3>
+                  <h3 className="font-serif text-xl font-bold mb-4">Collaborative Inquiry</h3>
                   <p>
-                    Investigating the mechanisms of spiritual and energy healing, the role of intention in health
-                    outcomes, and the relationship between spiritual well-being and physical health. This includes
-                    studies on the physiological effects of practices taught by Dr. Kumar.
+                    Through symposia, workshops, and digital journals, seekers and scientists share insights and co-develop new models of understanding. This emphasizes open dialogue, respect for diverse methods, and collective creativity to deepen global spiritual-scientific exploration.
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6">
-                  <h3 className="font-serif text-xl font-bold mb-4">Environmental Science</h3>
+                  <h3 className="font-serif text-xl font-bold mb-4">Applied Research</h3>
                   <p>
-                    Studying the interconnectedness of ecosystems and the impact of human consciousness on the
-                    environment. This includes research on water quality, the effects of meditation on environmental
-                    systems, and sustainable approaches to living in harmony with nature.
+                    Studies focus on consciousness, healing, ecology, quantum physics, and social transformation as lived practices. Collaboration integrates spiritual principles with scientific tools to promote practical outcomes in healing, sustainability, and collective renewal.
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6">
-                  <h3 className="font-serif text-xl font-bold mb-4">Quantum Physics & Mysticism</h3>
+                  <h3 className="font-serif text-xl font-bold mb-4">Knowledge Exchange</h3>
                   <p>
-                    Exploring parallels between quantum physics concepts and mystical descriptions of reality. This
-                    includes research on non-locality, entanglement, and the role of the observer in quantum systems,
-                    and how these relate to Sufi concepts of unity and interconnectedness.
+                    Sufi experiential wisdom is translated for modern researchers, while scientific tools gain spiritual grounding. This mutual learning bridges cultures and disciplines, fostering a future where science and spirituality evolve collaboratively.
                   </p>
                 </CardContent>
               </Card>
@@ -124,20 +115,26 @@ export default function SufiSciencePage() {
                 />
               </div>
               <p className="mb-4">
-                Established in 2005 in Berkeley, California, the Sufi Science Center serves as the primary research and
-                educational hub for the integration of Dr. Kumar's teachings with scientific inquiry. The center brings
-                together scientists, healthcare professionals, spiritual practitioners, and scholars from various
-                disciplines.
+                Founded as a hub for bridging spiritual wisdom and scientific inquiry, the Sufi Science Center brings together
+                scientists, healers, and seekers to co-create knowledge. It explores consciousness, healing, ecology, and quantum
+                research through symposia, workshops, and collaborative projects.
               </p>
               <p className="mb-4">
-                The center hosts regular symposia, workshops, and research projects exploring the intersection of
-                consciousness, healing, and environmental science. It also maintains a library of Dr. Kumar's teachings
-                and publishes research findings through its journal and online platforms.
+                Established in 2005 in Berkeley, California, the Sufi Science Center serves as the primary research and
+                educational hub for the integration of Dr. Kumar's teachings with scientific inquiry. The center brings together
+                scientists, healthcare professionals, spiritual practitioners, and scholars from various disciplines.
+              </p>
+              <p className="mb-4">
+                The center hosts regular symposia, workshops, and research projects exploring the intersection of consciousness,
+                healing, and environmental science. It also maintains a library of Dr. Kumar's teachings and publishes research
+                findings through its journal and online platforms.
               </p>
               <p>
-                Through collaborations with universities, research institutions, and healthcare facilities, the Sufi
-                Science Center works to bridge the gap between academic research and practical applications of
-                integrated wisdom.
+                The center supports young scientists and Sufi seekers in dialogue, offering opportunities for research,
+                publications, and experimental inquiry. By fostering cross-disciplinary collaboration, SSC ensures knowledge is
+                both academically rigorous and spiritually grounded. Through global partnerships with universities, research
+                institutions, and community organizations, the Sufi Science Center transforms mystical insight into practical
+                solutions for human well-being, environmental balance, and deeper understanding of consciousness.
               </p>
             </div>
 
@@ -266,6 +263,86 @@ export default function SufiSciencePage() {
                       </div>
                       <div>Community Meditation</div>
                     </li>
+                    <li className="flex items-start gap-3">
+                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="text-[#E6C67C]"
+                        >
+                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                          <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                      </div>
+                      <div>Dialog Series</div>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="text-[#E6C67C]"
+                        >
+                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                          <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                      </div>
+                      <div>Hard Talk</div>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="text-[#E6C67C]"
+                        >
+                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                          <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                      </div>
+                      <div>Sufi Professions</div>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="text-[#E6C67C]"
+                        >
+                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                          <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                      </div>
+                      <div>Inspiring Interviews</div>
+                    </li>
                   </ul>
                 </CardContent>
               </Card>
@@ -287,93 +364,94 @@ export default function SufiSciencePage() {
           <h2 className="font-serif text-3xl font-bold text-center mb-12">Publications & Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Link href="/publications/journal" className="block">
-              <Card className="h-full transition-all hover:shadow-md">
-                <div className="relative h-48">
-                  <Image
-                    src="/placeholder.svg?height=400&width=600"
-                    alt="Journal of Sufi Science Center" // Updated alt text
-                    fill
-                    className="object-cover rounded-t-lg"
-                  />
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="font-serif text-xl font-bold mb-2">Journal of Sufi Science Center</h3>{" "}
-                  {/* Updated title */}
-                  <p className="text-sm text-muted-foreground mb-4">
-                    Peer-reviewed research at the intersection of spirituality and science
-                  </p>
-                  <Button variant="outline" size="sm" asChild>
-                    <span>
-                      Browse Journal <ChevronRight className="ml-1 h-3 w-3" />
-                    </span>
-                  </Button>
-                </CardContent>
-              </Card>
-            </Link>
+            <Card className="h-full transition-all hover:shadow-md">
+              <div className="relative h-48">
+                <Image
+                  src="/placeholder.svg?height=400&width=600"
+                  alt="Journal of Sufi Science Center"
+                  fill
+                  className="object-cover rounded-t-lg"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="font-serif text-xl font-bold mb-2">Journal of Sufi Science Center</h3>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Submit your research for the upcoming Sufi Science Center Symposium. Papers on consciousness, healing,
+                  ecology, and mysticism are welcome. Selected works will be presented and published in the Journal of Sufi
+                  Science.
+                </p>
+                <Button variant="outline" size="sm" asChild>
+                  <a href="https://sufisciencecenter.info/submissionportal" target="_blank" rel="noopener noreferrer">
+                    Submit Your Paper <ChevronRight className="ml-1 h-3 w-3" />
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
 
-            <Link href="/publications/books" className="block">
-              <Card className="h-full transition-all hover:shadow-md">
-                <div className="relative h-48">
-                  <Image
-                    src="/placeholder.svg?height=400&width=600"
-                    alt="Books on Sufi Science Center" // Updated alt text
-                    fill
-                    className="object-cover rounded-t-lg"
-                  />
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="font-serif text-xl font-bold mb-2">Books & Publications</h3>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    Books, monographs, and articles exploring Dr. Kumar's scientific approach
-                  </p>
-                  <Button variant="outline" size="sm" asChild>
-                    <span>
-                      View Publications <ChevronRight className="ml-1 h-3 w-3" />
-                    </span>
-                  </Button>
-                </CardContent>
-              </Card>
-            </Link>
+            <Card className="h-full transition-all hover:shadow-md">
+              <div className="relative h-48">
+                <Image
+                  src="/placeholder.svg?height=400&width=600"
+                  alt="Books on Sufi Science Center"
+                  fill
+                  className="object-cover rounded-t-lg"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="font-serif text-xl font-bold mb-2">Books & Publications</h3>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Explore Dr. Kumar’s transformative vision through books, articles, and monographs. Our publications connect mystic wisdom with inquiry, offering profound resources for seekers and practitioners to deepen understanding of spirituality, healing, and consciousness.
+                </p>
+                <Button variant="outline" size="sm" asChild>
+                  <a href="https://sufisciencecenter.info/digitalbooks" target="_blank" rel="noopener noreferrer">
+                    View Publications <ChevronRight className="ml-1 h-3 w-3" />
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
 
-            <Link href="/research/participate" className="block">
-              <Card className="h-full transition-all hover:shadow-md">
-                <div className="relative h-48">
-                  <Image
-                    src="/placeholder.svg?height=400&width=600"
-                    alt="Participate in Research"
-                    fill
-                    className="object-cover rounded-t-lg"
-                  />
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="font-serif text-xl font-bold mb-2">Participate in Research</h3>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    Opportunities to contribute to ongoing studies and experiments
-                  </p>
-                  <Button variant="outline" size="sm" asChild>
-                    <span>
-                      Learn How <ChevronRight className="ml-1 h-3 w-3" />
-                    </span>
-                  </Button>
-                </CardContent>
-              </Card>
-            </Link>
+
+
+            <Card className="h-full transition-all hover:shadow-md">
+              <div className="relative h-48">
+                <Image
+                  src="/placeholder.svg?height=400&width=600"
+                  alt="Inspiring Interviews"
+                  fill
+                  className="object-cover rounded-t-lg"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="font-serif text-xl font-bold mb-2">Get Interviewed</h3>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Share your voice with the Sufi Science Center Dialogues. We feature interviews with scientists, healers, and
+                  Sufi seekers to inspire global audiences. Your insights may guide collaborative research and inspire the next
+                  generation.
+                </p>
+                <Button variant="outline" size="sm" asChild>
+                  <a href="https://sufisciencecenter.info/academy/inspiringinterview" target="_blank" rel="noopener noreferrer">
+                    Apply for Interview <ChevronRight className="ml-1 h-3 w-3" />
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
-
       <section className="py-16 bg-gray-50 dark:bg-gray-900">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-serif text-3xl font-bold mb-6">Upcoming Events</h2>
-            <p className="text-lg mb-8">
-              Join us for lectures, workshops, and symposia exploring the integration of spiritual wisdom and scientific
-              research. Our events bring together researchers, practitioners, and seekers from diverse backgrounds.
-            </p>
+            <div className="mb-8">
+             
+              <p className="text-base mb-4">
+                Join us for the Sufi Science Center Symposium, an international gathering uniting scientists, healers, and Sufi seekers. The event explores consciousness, healing, ecology, and quantum research, fostering dialogue and collaboration across disciplines and spiritual traditions.
+              </p>
+            
+            </div>
             <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
-              <Link href="/events">
-                View Event Calendar <ChevronRight className="ml-2 h-4 w-4" />
+              <Link href="https://sufisciencecenter.info/submissionportal" target="_blank">
+                Register <ChevronRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
           </div>
