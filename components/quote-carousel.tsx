@@ -61,7 +61,7 @@ export default function QuoteCarousel() {
       </div>
 
       <div className="text-center p-8 md:p-12">
-        <div className="mb-6 text-[#E6C67C]">
+        <div className="mb-6 text-emerald-600">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="36"
@@ -96,7 +96,7 @@ export default function QuoteCarousel() {
           <button
             key={index}
             className={`w-2 h-2 rounded-full ${
-              index === activeIndex ? "bg-[#E6C67C]" : "bg-gray-300 dark:bg-gray-700"
+              index === activeIndex ? "bg-emerald-600" : "bg-gray-300 dark:bg-gray-700"
             }`}
             onClick={() => setActiveIndex(index)}
             aria-label={`Go to quote ${index + 1}`}

@@ -281,7 +281,7 @@ export default function MediaLibraryPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
               <Input placeholder="Your email address" className="flex-1" />
-              <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black">Subscribe</Button>
+              <Button className="bg-emerald-600 hover:bg-emerald-800 text-black">Subscribe</Button>
             </div>
           </div>
         </div>

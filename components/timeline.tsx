@@ -88,7 +88,7 @@ export default function Timeline() {
               {timelineItems.map((_, index) => (
                 <div
                   key={index}
-                  className={`h-full ${index === activeIndex ? "bg-[#E6C67C]" : "bg-transparent"}`}
+                  className={`h-full ${index === activeIndex ? "bg-emerald-600" : "bg-transparent"}`}
                   style={{
                     width: `${100 / timelineItems.length}%`,
                     display: "inline-block",

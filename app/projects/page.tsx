@@ -39,12 +39,12 @@ export default function ProjectsPage() {
               <CardContent className="p-6">
                 <h3 className="font-serif text-2xl font-bold mb-4">Testimonials</h3>
                 <div className="space-y-4">
-                  <blockquote className="border-l-4 border-[#E6C67C] pl-4 italic">
+                  <blockquote className="border-l-4 border-emerald-600 pl-4 italic">
                     "Dr. Kumar's approach to healing changed my understanding of medicine forever. He showed us that
                     true healing comes from within."
                     <footer className="text-sm mt-2 font-medium">— Dr. Sarah Johnson, Neurologist</footer>
                   </blockquote>
-                  <blockquote className="border-l-4 border-[#E6C67C] pl-4 italic">
+                  <blockquote className="border-l-4 border-emerald-600 pl-4 italic">
                     "In his silence, I found answers to questions I had been asking my entire life. His presence was the
                     teaching."
                     <footer className="text-sm mt-2 font-medium">— Michael Chen, Spiritual Seeker</footer>
@@ -66,7 +66,7 @@ export default function ProjectsPage() {
                   papers, programs explore consciousness, healing, and sustainability through dialogue with seekers,
                   scientists, and spiritual leaders.
                 </p>
-                <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
+                <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
                     Learn More About the Center
                   </a>
@@ -579,7 +579,7 @@ export default function ProjectsPage() {
               volunteering, sharing your skills, or joining our spiritual community, your contribution makes a
               difference.
             </p>
-            <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
+            <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
               <a href="https://sufisciencecenter.info/collaboration" target="_blank" rel="noopener noreferrer">
                 Ways to Collaborate With Us
               </a>

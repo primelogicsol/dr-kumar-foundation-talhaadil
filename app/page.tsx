@@ -26,31 +26,12 @@ export default function Home() {
             Dr. Ghulam Mohammad Kumar – A Saint Beyond Time, A Healer Beyond Form.
           </p>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
-            <Button size="lg" className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black text-sm sm:text-base" asChild>
+            <Button size="lg" className="bg-emerald-600 hover:bg-emerald-800 text-black text-sm sm:text-base" asChild>
               <Link href="/his-life">
                 Explore His Life <ChevronRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white/20 bg-transparent text-sm sm:text-base"
-              asChild
-            >
-              <Link href="/media-library?category=documentaries">
-                Watch the Journey <ChevronRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white/20 bg-transparent text-sm sm:text-base"
-              asChild
-            >
-              <Link href="/get-involved">
-                Support the Mission <ChevronRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
+            
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-16 sm:h-20 md:h-24 bg-gradient-to-t from-background to-transparent"></div>
@@ -64,7 +45,7 @@ export default function Home() {
           </h2>
           <Timeline />
           <div className="text-center mt-6 sm:mt-8">
-            <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black text-sm sm:text-base" asChild>
+            <Button className="bg-emerald-600 hover:bg-emerald-800 text-black text-sm sm:text-base" asChild>
               <Link href="/his-life">
                 Read Full Biography <ChevronRight className="ml-2 h-4 w-4" />
               </Link>
@@ -88,14 +69,14 @@ export default function Home() {
             <QuoteCarousel />
           </div>
 
-          <div className="text-center max-w-xl sm:max-w-2xl mx-auto p-6 sm:p-8 border border-[#E6C67C]/30 rounded-lg bg-white/50 dark:bg-gray-800/50 shadow-sm">
+          <div className="text-center max-w-xl sm:max-w-2xl mx-auto p-6 sm:p-8 border border-emerald-600/30 rounded-lg bg-white/50 dark:bg-gray-800/50 shadow-sm">
             <p className="text-lg sm:text-xl font-serif italic">
               🔹 "He healed without hands. He spoke through silence. He lived as Noor."
             </p>
           </div>
 
           <div className="text-center mt-6 sm:mt-8">
-            <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black text-sm sm:text-base" asChild>
+            <Button className="bg-emerald-600 hover:bg-emerald-800 text-black text-sm sm:text-base" asChild>
               <Link href="/teachings">
                 Explore Teachings <ChevronRight className="ml-2 h-4 w-4" />
               </Link>
@@ -112,52 +93,51 @@ export default function Home() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            <Link href="/domains/healing">
+            <div className="h-full">
               <DomainCard
                 icon="leaf"
                 title="Divine Healing & Health"
-                description="Dr. Kumar's approach to healing transcended conventional medicine, focusing on the spiritual essence of wellbeing."
+                description="Healing through spiritual essence and holistic wellbeing."
               />
-            </Link>
-            <Link href="/domains/environment">
+            </div>
+            <div className="h-full">
               <DomainCard
                 icon="globe"
                 title="Environmental Sainthood"
-                description="His deep connection with nature emphasized the sacred duty of environmental stewardship."
+                description="Sacred duty of stewardship and connection with nature."
               />
-            </Link>
-            <Link href="/sufi-science">
+            </div>
+            <div className="h-full">
               <DomainCard
                 icon="brain"
-                title="Sufi Science Center & Rational Mysticism"
-                description="Bridging the gap between spiritual wisdom and scientific understanding through rational mysticism."
+                title="Sufi Science & Mysticism"
+                description="Bridging spiritual wisdom with rational scientific inquiry."
               />
-            </Link>
-            <Link href="/domains/education">
+            </div>
+            <div className="h-full">
               <DomainCard
                 icon="book"
                 title="Education & Awakening"
-                description="Promoting knowledge that awakens the soul and expands consciousness beyond conventional learning."
+                description="Knowledge that awakens soul and expands consciousness."
               />
-            </Link>
-            <Link href="/domains/peace">
+            </div>
+            <div className="h-full">
               <DomainCard
                 icon="dove"
                 title="Peace, Silence & Presence"
-                description="Teaching the power of silence and mindful presence as pathways to inner peace and spiritual growth."
+                description="Silence and mindfulness as pathways to inner peace."
               />
-            </Link>
-            <Link href="/domains/qalandari">
+            </div>
+            <div className="h-full">
               <DomainCard
                 icon="path"
-                title="Qalandari Path – Beyond Sect, Beyond Self"
-                description="The essence of the Qalandari path transcends religious boundaries, focusing on universal spiritual truths."
+                title="Qalandari Path & Truth"
+                description="Transcending religious boundaries for universal truths."
               />
-            </Link>
+            </div>
           </div>
         </div>
       </section>
-
       {/* Dr. Kumar's Global Legacy */}
       <section id="legacy" className="py-12 sm:py-16 md:py-20 bg-gray-50 dark:bg-gray-900">
         <div className="container px-4 sm:px-6 lg:px-8">
@@ -174,22 +154,18 @@ export default function Home() {
               <CardContent className="p-4 sm:p-6">
                 <h3 className="font-serif text-xl sm:text-2xl font-bold mb-4">Testimonials</h3>
                 <div className="space-y-4">
-                  <blockquote className="border-l-4 border-[#E6C67C] pl-4 italic text-sm sm:text-base">
+                  <blockquote className="border-l-4 border-emerald-600 pl-4 italic text-sm sm:text-base">
                     "Dr. Kumar's approach to healing changed my understanding of medicine forever. He showed us that
                     true healing comes from within."
                     <footer className="text-xs sm:text-sm mt-2 font-medium">— Dr. Sarah Johnson, Neurologist</footer>
                   </blockquote>
-                  <blockquote className="border-l-4 border-[#E6C67C] pl-4 italic text-sm sm:text-base">
+                  <blockquote className="border-l-4 border-emerald-600 pl-4 italic text-sm sm:text-base">
                     "In his silence, I found answers to questions I had been asking my entire life. His presence was the
                     teaching."
                     <footer className="text-xs sm:text-sm mt-2 font-medium">— Michael Chen, Spiritual Seeker</footer>
                   </blockquote>
                 </div>
-                <div className="mt-4">
-                  <Button variant="outline" className="text-sm sm:text-base" asChild>
-                    <Link href="/testimonials">Read More Testimonials</Link>
-                  </Button>
-                </div>
+
               </CardContent>
             </Card>
 
@@ -200,7 +176,7 @@ export default function Home() {
                   The Sufi Science Center continues Dr. Kumar's legacy by integrating spiritual wisdom with scientific
                   research, focusing on consciousness studies, healing practices, and environmental sustainability.
                 </p>
-                <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black text-sm sm:text-base" asChild>
+                <Button className="bg-emerald-600 hover:bg-emerald-800 text-black text-sm sm:text-base" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
                     Learn More About the Center
                   </a>
@@ -216,9 +192,7 @@ export default function Home() {
                 <Card className="h-full transition-all hover:shadow-md">
                   <CardContent className="p-4 text-center">
                     <h4 className="font-medium mb-2 text-sm sm:text-base">Healing Programs</h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground">
-                      Continuing Dr. Kumar's healing work through workshops and retreats
-                    </p>
+                    <p className="text-xs sm:text-sm text-muted-foreground">Healing through spiritual workshops and retreats</p>
                   </CardContent>
                 </Card>
               </Link>
@@ -226,7 +200,7 @@ export default function Home() {
                 <Card className="h-full transition-all hover:shadow-md">
                   <CardContent className="p-4 text-center">
                     <h4 className="font-medium mb-2 text-sm sm:text-base">Water Protection</h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground">Preserving the sacred waters of Kashmir and beyond</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground">Preserving sacred waters of Kashmir and beyond</p>
                   </CardContent>
                 </Card>
               </Link>
@@ -234,7 +208,7 @@ export default function Home() {
                 <Card className="h-full transition-all hover:shadow-md">
                   <CardContent className="p-4 text-center">
                     <h4 className="font-medium mb-2 text-sm sm:text-base">Youth Rehabilitation</h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground">Guiding troubled youth through spiritual practices</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground">Guiding youth with spiritual practices and support</p>
                   </CardContent>
                 </Card>
               </Link>
@@ -242,13 +216,13 @@ export default function Home() {
                 <Card className="h-full transition-all hover:shadow-md">
                   <CardContent className="p-4 text-center">
                     <h4 className="font-medium mb-2 text-sm sm:text-base">Craft Revival</h4>
-                    <p className="text-xs sm:text-sm text-muted-foreground">Preserving traditional Kashmiri arts and crafts</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground">Reviving traditional Kashmiri arts and craftsmanship</p>
                   </CardContent>
                 </Card>
               </Link>
             </div>
             <div className="text-center mt-6 sm:mt-8">
-              <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black text-sm sm:text-base" asChild>
+              <Button className="bg-emerald-600 hover:bg-emerald-800 text-black text-sm sm:text-base" asChild>
                 <Link href="/projects">
                   View All Projects <ChevronRight className="ml-2 h-4 w-4" />
                 </Link>
@@ -400,117 +374,7 @@ export default function Home() {
       </section>
 
       {/* Support the Mission */}
-      <section id="involved" className="py-12 sm:py-16 md:py-20 bg-gray-50 dark:bg-gray-900">
-        <div className="container px-4 sm:px-6 lg:px-8">
-          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6">
-            Support the Mission
-          </h2>
-          <p className="text-center text-base sm:text-lg mb-8 md:mb-12 max-w-3xl mx-auto font-serif italic">
-            💖 "Send your Zikr. Send your Breath. We don't want donations, we want Divine Intent."
-          </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
-            <Card>
-              <CardContent className="p-4 sm:p-6 flex flex-col items-center text-center h-full">
-                <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-full bg-[#E6C67C]/20 flex items-center justify-center mb-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5 sm:h-6 sm:w-6 text-[#E6C67C]"
-                  >
-                    <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z" />
-                    <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
-                  </svg>
-                </div>
-                <h3 className="text-lg sm:text-xl font-medium mb-2">Share Your Story</h3>
-                <p className="text-xs sm:text-sm text-muted-foreground mb-4">
-                  Submit stories or artwork inspired by Dr. Kumar and his teachings.
-                </p>
-                <Button variant="outline" className="mt-auto bg-transparent text-sm sm:text-base" asChild>
-                  <Link href="/get-involved/share-story">Submit Your Story</Link>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="p-4 sm:p-6 flex flex-col items-center text-center h-full">
-                <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-full bg-[#E6C67C]/20 flex items-center justify-center mb-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5 sm:h-6 sm:w-6 text-[#E6C67C]"
-                  >
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
-                </div>
-                <h3 className="text-lg sm:text-xl font-medium mb-2">Volunteer</h3>
-                <p className="text-xs sm:text-sm text-muted-foreground mb-4">
-                  Join our efforts in healing, ecology, or music initiatives around the world.
-                </p>
-                <Button variant="outline" className="mt-auto bg-transparent text-sm sm:text-base" asChild>
-                  <Link href="/get-involved/volunteer">Become a Volunteer</Link>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="p-4 sm:p-6 flex flex-col items-center text-center h-full">
-                <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-full bg-[#E6C67C]/20 flex items-center justify-center mb-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5 sm:h-6 sm:w-6 text-[#E6C67C]"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
-                    <path d="M2 12h20" />
-                  </svg>
-                </div>
-                <h3 className="text-lg sm:text-xl font-medium mb-2">Join Zikr Circles</h3>
-                <p className="text-xs sm:text-sm text-muted-foreground mb-4">
-                  Connect with global zikr groups and participate in collective spiritual practice.
-                </p>
-                <Button variant="outline" className="mt-auto bg-transparent text-sm sm:text-base" asChild>
-                  <Link href="/get-involved/zikr-circles">Find a Circle</Link>
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
-
-          <div className="text-center mt-6 sm:mt-8">
-            <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black text-sm sm:text-base" asChild>
-              <Link href="/get-involved">
-                More Ways to Get Involved <ChevronRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
+  
       {/* Visitor Counter */}
       <div className="py-6 sm:py-8 bg-gray-50 dark:bg-gray-900 text-center">
         <p className="text-xs sm:text-sm text-muted-foreground px-4">

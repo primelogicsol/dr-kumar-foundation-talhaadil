@@ -296,7 +296,7 @@ export default function MediaItemPage({ params }: { params: { slug: string } }) 
                 <ChevronLeft className="mr-2 h-4 w-4" /> Back to SufiPulse Media
               </Link>
             </Button>
-            <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
+            <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
               <Link href="/media-library">
                 Browse More Media <ChevronRight className="ml-2 h-4 w-4" />
               </Link>

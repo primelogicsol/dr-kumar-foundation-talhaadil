@@ -101,7 +101,7 @@ export default function TeachingsPage() {
               </div>
 
               <div className="text-center mt-8">
-                <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
+                <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
                   <Link href="https://sufisciencecenter.info/beginyourjourney">
                     Start Your Sufism Journey <ChevronRight className="ml-2 h-4 w-4" />
                   </Link>
@@ -173,7 +173,7 @@ export default function TeachingsPage() {
               </div>
 
               <div className="text-center mt-8">
-                <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
+                <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
                   <Link href="https://sufisciencecenter.info/corelearningpaths">
                     Beginner's Checklist for the Sufi Journey <ChevronRight className="ml-2 h-4 w-4" />
                   </Link>
@@ -246,7 +246,7 @@ export default function TeachingsPage() {
               </div>
 
               <div className="text-center mt-8">
-                <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
+                <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
                   <Link href="https://sufisciencecenter.info/leadership&teaching">
                     Personalized Teaching Path Assessment <ChevronRight className="ml-2 h-4 w-4" />
                   </Link>

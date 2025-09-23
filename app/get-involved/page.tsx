@@ -44,7 +44,7 @@ export default function GetInvolvedPage() {
                   />
                 </div>
                 <CardContent className="p-6 flex flex-col">
-                  <div className="h-12 w-12 rounded-full bg-[#E6C67C]/20 flex items-center justify-center mb-4">
+                  <div className="h-12 w-12 rounded-full bg-emerald-600/20 flex items-center justify-center mb-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -55,7 +55,7 @@ export default function GetInvolvedPage() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-6 w-6 text-[#E6C67C]"
+                      className="h-6 w-6 text-emerald-600"
                     >
                       <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z" />
                       <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
@@ -84,7 +84,7 @@ export default function GetInvolvedPage() {
                   />
                 </div>
                 <CardContent className="p-6 flex flex-col">
-                  <div className="h-12 w-12 rounded-full bg-[#E6C67C]/20 flex items-center justify-center mb-4">
+                  <div className="h-12 w-12 rounded-full bg-emerald-600/20 flex items-center justify-center mb-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -95,7 +95,7 @@ export default function GetInvolvedPage() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-6 w-6 text-[#E6C67C]"
+                      className="h-6 w-6 text-emerald-600"
                     >
                       <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
                       <circle cx="9" cy="7" r="4" />
@@ -126,7 +126,7 @@ export default function GetInvolvedPage() {
                   />
                 </div>
                 <CardContent className="p-6 flex flex-col">
-                  <div className="h-12 w-12 rounded-full bg-[#E6C67C]/20 flex items-center justify-center mb-4">
+                  <div className="h-12 w-12 rounded-full bg-emerald-600/20 flex items-center justify-center mb-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -137,7 +137,7 @@ export default function GetInvolvedPage() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-6 w-6 text-[#E6C67C]"
+                      className="h-6 w-6 text-emerald-600"
                     >
                       <circle cx="12" cy="12" r="10" />
                       <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
@@ -163,7 +163,7 @@ export default function GetInvolvedPage() {
                 <h3 className="font-serif text-2xl font-bold mb-4">More Ways to Contribute</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
-                    <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                    <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -174,7 +174,7 @@ export default function GetInvolvedPage() {
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="text-[#E6C67C]"
+                        className="text-emerald-600"
                       >
                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                         <polyline points="22 4 12 14.01 9 11.01" />
@@ -188,7 +188,7 @@ export default function GetInvolvedPage() {
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
-                    <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                    <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -199,7 +199,7 @@ export default function GetInvolvedPage() {
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="text-[#E6C67C]"
+                        className="text-emerald-600"
                       >
                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                         <polyline points="22 4 12 14.01 9 11.01" />
@@ -213,7 +213,7 @@ export default function GetInvolvedPage() {
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
-                    <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                    <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -224,7 +224,7 @@ export default function GetInvolvedPage() {
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="text-[#E6C67C]"
+                        className="text-emerald-600"
                       >
                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                         <polyline points="22 4 12 14.01 9 11.01" />
@@ -238,7 +238,7 @@ export default function GetInvolvedPage() {
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
-                    <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                    <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -249,7 +249,7 @@ export default function GetInvolvedPage() {
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="text-[#E6C67C]"
+                        className="text-emerald-600"
                       >
                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                         <polyline points="22 4 12 14.01 9 11.01" />
@@ -284,7 +284,7 @@ export default function GetInvolvedPage() {
                   <div className="bg-gray-100 dark:bg-gray-800 p-2 rounded text-center">Healthcare</div>
                 </div>
                 <div className="mt-4">
-                  <Button className="w-full bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
+                  <Button className="w-full bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
                     <Link href="/get-involved/professional">Offer Professional Support</Link>
                   </Button>
                 </div>
@@ -319,7 +319,7 @@ export default function GetInvolvedPage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
                           <line x1="16" x2="16" y1="2" y2="6" />
@@ -329,7 +329,7 @@ export default function GetInvolvedPage() {
                         <span>June 15 - August 30, 2025</span>
                       </div>
                     </div>
-                    <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black shrink-0" asChild>
+                    <Button className="bg-emerald-600 hover:bg-emerald-800 text-black shrink-0" asChild>
                       <Link href="/get-involved/water-protection">Apply Now</Link>
                     </Button>
                   </div>
@@ -355,7 +355,7 @@ export default function GetInvolvedPage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
                           <line x1="16" x2="16" y1="2" y2="6" />
@@ -365,7 +365,7 @@ export default function GetInvolvedPage() {
                         <span>Monthly Workshops</span>
                       </div>
                     </div>
-                    <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black shrink-0" asChild>
+                    <Button className="bg-emerald-600 hover:bg-emerald-800 text-black shrink-0" asChild>
                       <Link href="/get-involved/healing-workshops">Apply Now</Link>
                     </Button>
                   </div>
@@ -391,7 +391,7 @@ export default function GetInvolvedPage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
                           <line x1="16" x2="16" y1="2" y2="6" />
@@ -401,7 +401,7 @@ export default function GetInvolvedPage() {
                         <span>Ongoing Project</span>
                       </div>
                     </div>
-                    <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black shrink-0" asChild>
+                    <Button className="bg-emerald-600 hover:bg-emerald-800 text-black shrink-0" asChild>
                       <Link href="/get-involved/media-archiving">Apply Now</Link>
                     </Button>
                   </div>
@@ -420,7 +420,7 @@ export default function GetInvolvedPage() {
               Have questions about how you can get involved? Our volunteer coordinator is here to help you find the
               perfect way to contribute based on your interests, skills, and availability.
             </p>
-            <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
+            <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
               <Link href="/contact?department=volunteer">
                 Contact Coordinator <ChevronRight className="ml-2 h-4 w-4" />
               </Link>

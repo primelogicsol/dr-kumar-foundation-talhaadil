@@ -144,7 +144,7 @@ export default function SufiSciencePage() {
                   <h3 className="font-serif text-xl font-bold mb-4">Center Activities</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -155,7 +155,7 @@ export default function SufiSciencePage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                           <polyline points="22 4 12 14.01 9 11.01" />
@@ -164,7 +164,7 @@ export default function SufiSciencePage() {
                       <div>Research Projects</div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -175,7 +175,7 @@ export default function SufiSciencePage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                           <polyline points="22 4 12 14.01 9 11.01" />
@@ -184,7 +184,7 @@ export default function SufiSciencePage() {
                       <div>Educational Workshops</div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -195,7 +195,7 @@ export default function SufiSciencePage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                           <polyline points="22 4 12 14.01 9 11.01" />
@@ -204,7 +204,7 @@ export default function SufiSciencePage() {
                       <div>Scientific Symposia</div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -215,7 +215,7 @@ export default function SufiSciencePage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                           <polyline points="22 4 12 14.01 9 11.01" />
@@ -224,7 +224,7 @@ export default function SufiSciencePage() {
                       <div>Healing Clinics</div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -235,7 +235,7 @@ export default function SufiSciencePage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                           <polyline points="22 4 12 14.01 9 11.01" />
@@ -244,7 +244,7 @@ export default function SufiSciencePage() {
                       <div>Publication of Research</div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -255,7 +255,7 @@ export default function SufiSciencePage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                           <polyline points="22 4 12 14.01 9 11.01" />
@@ -264,7 +264,7 @@ export default function SufiSciencePage() {
                       <div>Community Meditation</div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -275,7 +275,7 @@ export default function SufiSciencePage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                           <polyline points="22 4 12 14.01 9 11.01" />
@@ -284,7 +284,7 @@ export default function SufiSciencePage() {
                       <div>Dialog Series</div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -295,7 +295,7 @@ export default function SufiSciencePage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                           <polyline points="22 4 12 14.01 9 11.01" />
@@ -304,7 +304,7 @@ export default function SufiSciencePage() {
                       <div>Hard Talk</div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -315,7 +315,7 @@ export default function SufiSciencePage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                           <polyline points="22 4 12 14.01 9 11.01" />
@@ -324,7 +324,7 @@ export default function SufiSciencePage() {
                       <div>Sufi Professions</div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-[#E6C67C]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-emerald-600/20 flex items-center justify-center shrink-0 mt-0.5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -335,7 +335,7 @@ export default function SufiSciencePage() {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-[#E6C67C]"
+                          className="text-emerald-600"
                         >
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                           <polyline points="22 4 12 14.01 9 11.01" />
@@ -348,7 +348,7 @@ export default function SufiSciencePage() {
               </Card>
 
               <div className="mt-6">
-                <Button className="w-full bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
+                <Button className="w-full bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
                     Visit Center Website <ChevronRight className="ml-2 h-4 w-4" />
                   </a>
@@ -443,13 +443,13 @@ export default function SufiSciencePage() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-serif text-3xl font-bold mb-6">Upcoming Events</h2>
             <div className="mb-8">
-             
+
               <p className="text-base mb-4">
                 Join us for the Sufi Science Center Symposium, an international gathering uniting scientists, healers, and Sufi seekers. The event explores consciousness, healing, ecology, and quantum research, fostering dialogue and collaboration across disciplines and spiritual traditions.
               </p>
-            
+
             </div>
-            <Button className="bg-[#E6C67C] hover:bg-[#D4B46A] text-black" asChild>
+            <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
               <Link href="https://sufisciencecenter.info/submissionportal" target="_blank">
                 Register <ChevronRight className="ml-2 h-4 w-4" />
               </Link>
