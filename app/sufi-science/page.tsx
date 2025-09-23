@@ -374,14 +374,15 @@ export default function SufiSciencePage() {
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="font-serif text-xl font-bold mb-2">Journal of Sufi Science Center</h3>
+                <h3 className="font-serif text-xl font-bold mb-2">Dialog Series</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Submit your research for the upcoming Sufi Science Center Symposium. Papers on consciousness, healing,
-                  ecology, and mysticism are welcome. Selected works will be presented and published in the Journal of Sufi
-                  Science.
+
+Dive into timeless commentaries, Sufi manuscripts, and contemporary reflections merging wisdom with modern inquiry.
+
+
                 </p>
                 <Button variant="outline" size="sm" asChild>
-                  <a href="https://sufisciencecenter.info/submissionportal" target="_blank" rel="noopener noreferrer">
+                  <a href="https://sufisciencecenter.info/academy/dialogseries" target="_blank" rel="noopener noreferrer">
                     Submit Your Paper <ChevronRight className="ml-1 h-3 w-3" />
                   </a>
                 </Button>
@@ -391,19 +392,19 @@ export default function SufiSciencePage() {
             <Card className="h-full transition-all hover:shadow-md">
               <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/DrSufipic1_11zon.webp?height=400&width=600"
                   alt="Books on Sufi Science Center"
                   fill
                   className="object-cover rounded-t-lg"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="font-serif text-xl font-bold mb-2">Books & Publications</h3>
+                <h3 className="font-serif text-xl font-bold mb-2">Hard Talk</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Explore Dr. Kumar’s transformative vision through books, articles, and monographs. Our publications connect mystic wisdom with inquiry, offering profound resources for seekers and practitioners to deepen understanding of spirituality, healing, and consciousness.
+                Explore sacred diagrams, cosmic maps, and interactive infographics that visualize mystical concepts in scientifically resonant design.
                 </p>
                 <Button variant="outline" size="sm" asChild>
-                  <a href="https://sufisciencecenter.info/digitalbooks" target="_blank" rel="noopener noreferrer">
+                  <a href="https://sufisciencecenter.info/academy/hardtalk" target="_blank" rel="noopener noreferrer">
                     View Publications <ChevronRight className="ml-1 h-3 w-3" />
                   </a>
                 </Button>
@@ -422,11 +423,9 @@ export default function SufiSciencePage() {
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="font-serif text-xl font-bold mb-2">Get Interviewed</h3>
+                <h3 className="font-serif text-xl font-bold mb-2">Inspiring Interview</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Share your voice with the Sufi Science Center Dialogues. We feature interviews with scientists, healers, and
-                  Sufi seekers to inspire global audiences. Your insights may guide collaborative research and inspire the next
-                  generation.
+                In this series, you’ll meet individuals whose lives have been radically reshaped by the essence of Sufism.
                 </p>
                 <Button variant="outline" size="sm" asChild>
                   <a href="https://sufisciencecenter.info/academy/inspiringinterview" target="_blank" rel="noopener noreferrer">
