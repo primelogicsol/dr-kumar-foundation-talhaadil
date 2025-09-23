@@ -262,19 +262,15 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="block"
                   >
-                    <div className="group rounded-lg overflow-hidden flex flex-col h-[300px] sm:h-[320px] md:h-[340px]">
+                    <div className="group rounded-lg overflow-hidden flex flex-col h-[280px] md:h-[350px] pb-0">
                       <img
                         src={video.thumbnail}
                         alt={video.title}
                         className="w-full aspect-video object-cover transition-transform group-hover:scale-105 flex-shrink-0"
                       />
-                      <div className="p-3 sm:p-4 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col justify-between flex-grow">
-                        <h3 className="font-medium text-sm sm:text-base line-clamp-2">
-                          {video.title}
-                        </h3>
-                        <p className="text-xs sm:text-sm opacity-80">
-                          Performance | {video.duration} • {video.views} views
-                        </p>
+                      <div className="p-3 sm:p-4 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col space-y-2 flex-grow">
+                        <h3 className="font-medium text-sm sm:text-base line-clamp-2">{video.title}</h3>
+                        <p className="text-xs sm:text-sm opacity-80">Performance | {video.duration} • {video.views} views</p>
                       </div>
                     </div>
                   </Link>
@@ -285,7 +281,7 @@ export default function Home() {
               <div className="mt-10 text-center">
                 <Link
                   href="/media-library"
-                  className="inline-block px-6 py-3 bg-emerald-600 text-white font-medium rounded-lg shadow-md hover:bg-emerald-700 transition"
+                  className="inline-block px-6 py-3 bg-emerald-600 text-black font-medium rounded-lg shadow-md hover:bg-emerald-700 transition"
                 >
                   See More
                 </Link>

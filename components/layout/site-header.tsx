@@ -29,17 +29,15 @@ export default function SiteHeader() {
   ]
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background py-5">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/placeholder.svg?height=40&width=40"
+            src="/logo123.png"
             alt="Dr. Kumar Foundation Logo"
-            width={40}
-            height={40}
-            className="rounded-full"
+            width={200}
+            height={200}
           />
-          <span className="font-serif text-xl font-medium">Dr. Kumar Foundation</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (

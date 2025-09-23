@@ -77,13 +77,13 @@ export default function MediaLibraryPage() {
                     rel="noopener noreferrer"
                     className="block"
                   >
-                    <div className="group rounded-lg overflow-hidden flex flex-col h-[300px] sm:h-[320px] md:h-[340px]">
+                    <div className="group rounded-lg overflow-hidden flex flex-col h-[280px] md:h-[350px]">
                       <img
                         src={video.thumbnail}
                         alt={video.title}
                         className="w-full aspect-video object-cover transition-transform group-hover:scale-105 flex-shrink-0"
                       />
-                      <div className="p-3 sm:p-4 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col justify-between flex-grow">
+                      <div className="p-3 sm:p-4 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col space-y-2 flex-grow">
                         <h3 className="font-medium text-sm sm:text-base line-clamp-2">{video.title}</h3>
                         <p className="text-xs sm:text-sm opacity-80">Performance | {video.duration} • {video.views} views</p>
                       </div>
@@ -105,7 +105,7 @@ export default function MediaLibraryPage() {
         </div>
       </section>
 
-      
+     
     </div>
   )
 }

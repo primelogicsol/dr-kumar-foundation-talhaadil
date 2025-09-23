@@ -48,7 +48,7 @@ export default function HisLifePage() {
                 </div>
                 <div className="md:w-1/2 relative aspect-[4/3]">
                   <Image
-                    src="/placeholder.svg?height=600&width=800"
+                    src="/lab.webp"
                     alt="The mountains of Kashmir where Dr. Kumar experienced his spiritual awakening"
                     fill
                     className="object-cover rounded-lg"

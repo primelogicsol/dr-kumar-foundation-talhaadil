@@ -19,7 +19,10 @@ export const metadata = {
   title: "Dr. Kumar Foundation – The Wandering Light of Kashmir",
   description:
     "The global voice of Dr. Ghulam Mohammad Kumar (Qalandar-e-Kashmir), dedicated to spreading his teachings of healing, peace, and spiritual awakening.",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+    icons : {
+      icon :'/logo123.png'
+    }
 }
 
 export default function RootLayout({

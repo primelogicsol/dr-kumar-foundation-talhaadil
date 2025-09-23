@@ -137,14 +137,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
-                <Image
-                  src="/placeholder.svg?height=600&width=800"
-                  alt="Map showing the location of the Dr. Kumar Foundation"
-                  fill
-                  className="object-cover"
-                />
-              </div>
+             
             </div>
 
             <div>
@@ -281,20 +274,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="container">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="font-serif text-3xl font-bold mb-6">Join Our Newsletter</h2>
-            <p className="text-lg mb-8">
-              Stay updated on foundation activities, upcoming events, and new teachings from Dr. Kumar's archive.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <Input placeholder="Your email address" className="flex-1" />
-              <Button className="bg-emerald-600 hover:bg-emerald-800 text-black">Subscribe</Button>
-            </div>
-          </div>
-        </div>
-      </section>
+     
     </div>
   )
 }

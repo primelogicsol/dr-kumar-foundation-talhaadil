@@ -9,13 +9,11 @@ export default function SiteFooter() {
           <div className="mb-8 md:mb-0">
             <div className="flex items-center gap-2 mb-4">
               <Image
-                src="/placeholder.svg?height=40&width=40"
+                src="/logo123.png"
                 alt="Dr. Kumar Foundation Logo"
-                width={40}
-                height={40}
-                className="rounded-full"
+                width={200}
+                height={200}
               />
-              <span className="font-serif text-xl font-medium">Dr. Kumar Foundation</span>
             </div>
             <p className="text-muted-foreground max-w-xs">
               The global voice of Dr. Ghulam Mohammad Kumar (Qalandar-e-Kashmir), dedicated to spreading his teachings
@@ -63,14 +61,14 @@ export default function SiteFooter() {
                     SufiPulse Media {/* Updated text */}
                   </Link>
                 </li>
-                
-              </ul> 
+
+              </ul>
             </div>
 
             <div>
               <h3 className="font-medium mb-3">Connect</h3>
               <ul className="space-y-2">
-                
+
                 <li>
                   <Link href="/contact" className="text-muted-foreground hover:text-foreground">
                     Contact
