@@ -1,3 +1,5 @@
+'use client';
+
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -7,8 +9,25 @@ import WorldMap from "@/components/world-map"
 import QuoteCarousel from "@/components/quote-carousel"
 import DomainCard from "@/components/domain-card"
 import FloatingParticles from "@/components/floating-particles"
+import { useState, useEffect } from 'react'
 
 export default function Home() {
+  const [videos, setVideos] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch('https://api.sufipulse.com/youtube/videos-limited')
+      .then(res => res.json())
+      .then(data => {
+        setVideos(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error('Error fetching videos:', err);
+        setLoading(false);
+      });
+  }, []);
+
   return (
     <div className="min-h-screen bg-white dark:bg-gray-950">
       {/* Hero Banner */}
@@ -31,7 +50,6 @@ export default function Home() {
                 Explore His Life <ChevronRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-16 sm:h-20 md:h-24 bg-gradient-to-t from-background to-transparent"></div>
@@ -64,17 +82,14 @@ export default function Home() {
             The sacred philosophy of Dr. Kumar explores the profound concepts of Fana (annihilation of the self) and the
             Qalandari path of spiritual enlightenment.
           </p>
-
           <div className="mb-12 md:mb-16">
             <QuoteCarousel />
           </div>
-
           <div className="text-center max-w-xl sm:max-w-2xl mx-auto p-6 sm:p-8 border border-emerald-600/30 rounded-lg bg-white/50 dark:bg-gray-800/50 shadow-sm">
             <p className="text-lg sm:text-xl font-serif italic">
               🔹 "He healed without hands. He spoke through silence. He lived as Noor."
             </p>
           </div>
-
           <div className="text-center mt-6 sm:mt-8">
             <Button className="bg-emerald-600 hover:bg-emerald-800 text-black text-sm sm:text-base" asChild>
               <Link href="/teachings">
@@ -91,7 +106,6 @@ export default function Home() {
           <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12">
             Divine Domains of Dr. Kumar
           </h2>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             <div className="h-full">
               <DomainCard
@@ -138,17 +152,16 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* Dr. Kumar's Global Legacy */}
       <section id="legacy" className="py-12 sm:py-16 md:py-20 bg-gray-50 dark:bg-gray-900">
         <div className="container px-4 sm:px-6 lg:px-8">
           <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12">
             Dr. Kumar's Global Legacy
           </h2>
-
           <div className="mb-12 md:mb-16">
             <WorldMap />
           </div>
-
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 mb-12 md:mb-16">
             <Card>
               <CardContent className="p-4 sm:p-6">
@@ -165,10 +178,8 @@ export default function Home() {
                     <footer className="text-xs sm:text-sm mt-2 font-medium">— Michael Chen, Spiritual Seeker</footer>
                   </blockquote>
                 </div>
-
               </CardContent>
             </Card>
-
             <Card>
               <CardContent className="p-4 sm:p-6">
                 <h3 className="font-serif text-xl sm:text-2xl font-bold mb-4">Sufi Science Center (USA)</h3>
@@ -184,7 +195,6 @@ export default function Home() {
               </CardContent>
             </Card>
           </div>
-
           <div>
             <h3 className="font-serif text-xl sm:text-2xl font-bold text-center mb-6">Foundation Projects</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -231,150 +241,59 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Multimedia Library */}
       <section id="media" className="py-12 sm:py-16 md:py-20 bg-white dark:bg-gray-950">
         <div className="container px-4 sm:px-6 lg:px-8">
-          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6">SufiPulse Media</h2>
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6">
+            SufiPulse Media
+          </h2>
           <p className="text-center text-base sm:text-lg mb-8 md:mb-12 max-w-3xl mx-auto">
             Explore the teachings and legacy of Dr. Kumar through various media formats.
           </p>
-
-          <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-6 sm:mb-8">
-            <Link href="/media-library">
-              <Button variant="outline" className="text-sm sm:text-base">All</Button>
-            </Link>
-            <Link href="/media-library?category=music">
-              <Button variant="outline" className="text-sm sm:text-base">Music</Button>
-            </Link>
-            <Link href="/media-library?category=healing">
-              <Button variant="outline" className="text-sm sm:text-base">Healing</Button>
-            </Link>
-            <Link href="/media-library?category=performance">
-              <Button variant="outline" className="text-sm sm:text-base">Performances</Button>
-            </Link>
-            <Link href="/media-library?category=interviews">
-              <Button variant="outline" className="text-sm sm:text-base">Interviews</Button>
-            </Link>
-            <Link href="/media-library?category=chants">
-              <Button variant="outline" className="text-sm sm:text-base">Chants</Button>
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {/* Video Item */}
-            <Link href="/media-library/divine-resonance-live" className="block">
-              <div className="group relative overflow-hidden rounded-lg">
-                <img
-                  src="/placeholder.svg?height=720&width=1280"
-                  alt="Live SufiPulse Performance"
-                  className="w-full aspect-video object-cover transition-transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
-                  <div className="p-3 sm:p-4 text-white">
-                    <h3 className="font-medium text-sm sm:text-base">Divine Resonance Live</h3>
-                    <p className="text-xs sm:text-sm opacity-80">Performance | 70 min</p>
-                  </div>
-                </div>
+          {loading ? (
+            <div className="text-center py-20">Loading SufiPulse Media...</div>
+          ) : (
+            <>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                {videos.map((video) => (
+                  <Link
+                    key={video.id}
+                    href={`https://www.youtube.com/watch?v=${video.id}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <div className="group rounded-lg overflow-hidden flex flex-col h-[300px] sm:h-[320px] md:h-[340px]">
+                      <img
+                        src={video.thumbnail}
+                        alt={video.title}
+                        className="w-full aspect-video object-cover transition-transform group-hover:scale-105 flex-shrink-0"
+                      />
+                      <div className="p-3 sm:p-4 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col justify-between flex-grow">
+                        <h3 className="font-medium text-sm sm:text-base line-clamp-2">
+                          {video.title}
+                        </h3>
+                        <p className="text-xs sm:text-sm opacity-80">
+                          Performance | {video.duration} • {video.views} views
+                        </p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
               </div>
-            </Link>
 
-            {/* Audio Item */}
-            <Link href="/media-library/echoes-of-silence" className="block">
-              <div className="group relative overflow-hidden rounded-lg">
-                <img
-                  src="/placeholder.svg?height=720&width=1280"
-                  alt="Echoes of Silence Album"
-                  className="w-full aspect-video object-cover transition-transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
-                  <div className="p-3 sm:p-4 text-white">
-                    <h3 className="font-medium text-sm sm:text-base">Echoes of Silence</h3>
-                    <p className="text-xs sm:text-sm opacity-80">Music Album | 53 min</p>
-                  </div>
-                </div>
+              {/* See More button */}
+              <div className="mt-10 text-center">
+                <Link
+                  href="/media-library"
+                  className="inline-block px-6 py-3 bg-emerald-600 text-white font-medium rounded-lg shadow-md hover:bg-emerald-700 transition"
+                >
+                  See More
+                </Link>
               </div>
-            </Link>
-
-            {/* Article Item */}
-            <Link href="/media-library/healing-chants-kashmir" className="block">
-              <div className="group relative overflow-hidden rounded-lg">
-                <img
-                  src="/placeholder.svg?height=720&width=1280"
-                  alt="Healing Chants of Kashmir"
-                  className="w-full aspect-video object-cover transition-transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
-                  <div className="p-3 sm:p-4 text-white">
-                    <h3 className="font-medium text-sm sm:text-base">Healing Chants of Kashmir</h3>
-                    <p className="text-xs sm:text-sm opacity-80">Chants | 40 min</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            {/* Music Item */}
-            <Link href="/media-library/rhythm-of-presence" className="block">
-              <div className="group relative overflow-hidden rounded-lg">
-                <img
-                  src="/placeholder.svg?height=720&width=1280"
-                  alt="Rhythm of Presence Album"
-                  className="w-full aspect-video object-cover transition-transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
-                  <div className="p-3 sm:p-4 text-white">
-                    <h3 className="font-medium text-sm sm:text-base">Rhythm of Presence</h3>
-                    <p className="text-xs sm:text-sm opacity-80">Music | Meditation</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            {/* Interview Item */}
-            <Link href="/media-library/interview-sufipulse-artist" className="block">
-              <div className="group relative overflow-hidden rounded-lg">
-                <img
-                  src="/placeholder.svg?height=720&width=1280"
-                  alt="Interview with SufiPulse Artist"
-                  className="w-full aspect-video object-cover transition-transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
-                  <div className="p-3 sm:p-4 text-white">
-                    <h3 className="font-medium text-sm sm:text-base">Interview with a SufiPulse Artist</h3>
-                    <p className="text-xs sm:text-sm opacity-80">Interview | 25 min</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            {/* Documentary Item */}
-            <Link href="/media-library/sufipulse-documentary" className="block">
-              <div className="group relative overflow-hidden rounded-lg">
-                <img
-                  src="/placeholder.svg?height=720&width=1280"
-                  alt="The Heartbeat of SufiPulse Documentary"
-                  className="w-full aspect-video object-cover transition-transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
-                  <div className="p-3 sm:p-4 text-white">
-                    <h3 className="font-medium text-sm sm:text-base">The Heartbeat of SufiPulse</h3>
-                    <p className="text-xs sm:text-sm opacity-80">Documentary | 30 min</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <div className="text-center mt-6 sm:mt-8">
-            <Button variant="outline" size="lg" className="text-sm sm:text-base" asChild>
-              <Link href="/media-library">View All Media</Link>
-            </Button>
-          </div>
+            </>
+          )}
         </div>
       </section>
-
-      {/* Support the Mission */}
-  
       {/* Visitor Counter */}
       <div className="py-6 sm:py-8 bg-gray-50 dark:bg-gray-900 text-center">
         <p className="text-xs sm:text-sm text-muted-foreground px-4">
