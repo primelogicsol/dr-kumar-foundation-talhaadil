@@ -6,8 +6,7 @@ import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
-import LanguageToggle from "@/components/language-toggle"
-import ThemeToggle from "@/components/theme-toggle"
+import { cn } from "@/lib/utils" // Assuming you have a utility for className concatenation
 
 export default function SiteHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -24,17 +23,17 @@ export default function SiteHeader() {
     { name: "His Life", path: "/his-life" },
     { name: "Teachings", path: "/teachings" },
     { name: "Legacy & Projects", path: "/projects" },
-    { name: "Sufi Science Center", path: "/sufi-science" }, // Updated text
+    { name: "Sufi Science Center", path: "/sufi-science" },
     { name: "SufiPulse Media", path: "/media-library" },
     { name: "Contact", path: "/contact" },
   ]
-  
+
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/placehol.svg?height=40&width=40"
+            src="/placeholder.svg?height=40&width=40"
             alt="Dr. Kumar Foundation Logo"
             width={40}
             height={40}
@@ -47,71 +46,82 @@ export default function SiteHeader() {
             <Link
               key={item.path}
               href={item.path}
-              className={`text-sm font-medium transition-colors ${
+              className={cn(
+                "text-sm font-medium transition-colors",
                 isActive(item.path) ? "text-primary" : "text-foreground/70 hover:text-foreground"
-              }`}
+              )}
             >
               {item.name}
             </Link>
           ))}
         </nav>
         <div className="flex items-center gap-2">
-         
           <Button
             variant="outline"
             size="icon"
-            className="md:hidden bg-transparent"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden border-none"
+            onClick={() => setMobileMenuOpen(true)}
           >
+            <Menu className="h-6 w-6" />
             <span className="sr-only">Toggle menu</span>
-            {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>
         </div>
       </div>
 
-      {/* Mobile menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden">
-          <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-            <div className="container py-4">
-              <div className="flex justify-between items-center mb-4">
-                <Link href="/" className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
-                  <Image
-                    src="/placeholder.svg?height=40&width=40"
-                    alt="Dr. Kumar Foundation Logo"
-                    width={40}
-                    height={40}
-                    className="rounded-full"
-                  />
-                  <span className="font-serif text-xl font-medium">Dr. Kumar Foundation</span>
-                </Link>
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="bg-transparent"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  <X className="h-5 w-5" />
-                  <span className="sr-only">Close menu</span>
-                </Button>
-              </div>
-              <nav className="flex flex-col gap-4">
-                {navItems.map((item) => (
-                  <Link
-                    key={item.path}
-                    href={item.path}
-                    className={`text-lg font-medium py-2 ${
-                      isActive(item.path) ? "text-primary" : "text-foreground/70"
-                    }`}
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </nav>
-            </div>
+      {/* Mobile Sidebar */}
+      <div
+        className={cn(
+          "fixed inset-y-0 left-0 z-50 w-64 bg-background border-r border-border/40 transform transition-transform duration-300 ease-in-out",
+          mobileMenuOpen ? "translate-x-0" : "-translate-x-full"
+        )}
+      >
+        <div className="flex flex-col h-full">
+          <div className="flex items-center justify-between p-4 border-b border-border/40">
+            <Link href="/" className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
+              <Image
+                src="/placeholder.svg?height=32&width=32"
+                alt="Dr. Kumar Foundation Logo"
+                width={32}
+                height={32}
+                className="rounded-full"
+              />
+              <span className="font-serif text-lg font-medium">Dr. Kumar Foundation</span>
+            </Link>
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              <X className="h-6 w-6" />
+              <span className="sr-only">Close menu</span>
+            </Button>
           </div>
+          <nav className="flex flex-col gap-2 p-4 flex-1">
+            {navItems.map((item) => (
+              <Link
+                key={item.path}
+                href={item.path}
+                className={cn(
+                  "text-lg font-medium py-2 px-3 rounded-md transition-colors",
+                  isActive(item.path)
+                    ? "bg-primary/10 text-primary"
+                    : "text-foreground hover:bg-accent hover:text-foreground"
+                )}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {item.name}
+              </Link>
+            ))}
+          </nav>
         </div>
+      </div>
+
+      {/* Overlay for mobile menu */}
+      {mobileMenuOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-black/50 md:hidden"
+          onClick={() => setMobileMenuOpen(false)}
+        />
       )}
     </header>
   )
