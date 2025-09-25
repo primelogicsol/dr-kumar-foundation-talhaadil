@@ -76,14 +76,12 @@ export default function SiteHeader() {
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-between p-4 border-b border-border/40">
             <Link href="/" className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
-              <Image
-                src="/placeholder.svg?height=32&width=32"
-                alt="Dr. Kumar Foundation Logo"
-                width={32}
-                height={32}
-                className="rounded-full"
-              />
-              <span className="font-serif text-lg font-medium">Dr. Kumar Foundation</span>
+               <Image
+            src="/logo123.png"
+            alt="Dr. Kumar Foundation Logo"
+            width={200}
+            height={200}
+          />
             </Link>
             <Button
               variant="ghost"
