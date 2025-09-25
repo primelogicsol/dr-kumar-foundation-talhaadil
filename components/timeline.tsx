@@ -9,7 +9,7 @@ const timelineItems = [
     id: 1,
     title: "Birth and Early Light",
     description:
-      "Born into a well-off family with a lineage of knowledge, Dr. Kumar showed signs of spiritual awareness from an early age.",
+      "Born in 1935 into a respected Kashmiri family with a strong lineage of scholars, healers, and seekers, Dr. Kumar grew up in an environment where learning and spirituality were part of daily life. From an early age, he displayed an unusual sensitivity to nature and an inner awareness that set him apart from other children. Elders in his family noticed his contemplative temperament, his deep compassion for people and animals, and his natural inclination toward silence and reflection. These early traits, nurtured by the cultural richness of Kashmir and the wisdom traditions within his family, became the foundation for his later journey as a physician, mystic, and spiritual teacher.",
     alt: "Birth and Early Life of Dr. Kumar",
   },
   {
@@ -58,11 +58,11 @@ export default function Timeline() {
       <div className="flex items-center justify-between mb-8">
         <h3 className="text-2xl font-serif font-medium">{timelineItems[activeIndex].title}</h3>
         <div className="flex gap-2">
-          <Button variant="outline" size="icon" onClick={handlePrevious}>
+          <Button className="bg-emerald-600" variant="outline" size="icon" onClick={handlePrevious}>
             <ChevronLeft className="h-4 w-4" />
             <span className="sr-only">Previous</span>
           </Button>
-          <Button variant="outline" size="icon" onClick={handleNext}>
+          <Button className="bg-emerald-600" variant="outline" size="icon" onClick={handleNext}>
             <ChevronRight className="h-4 w-4" />
             <span className="sr-only">Next</span>
           </Button>
@@ -73,7 +73,7 @@ export default function Timeline() {
         <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
           <video
             src="/hero-video.mp4"
-            
+
             autoPlay
             loop
             muted
@@ -88,7 +88,7 @@ export default function Timeline() {
               {timelineItems.map((_, index) => (
                 <div
                   key={index}
-                  className={`h-full ${index === activeIndex ? "bg-emerald-600" : "bg-transparent"}`}
+                  className="bg-emerald-600"
                   style={{
                     width: `${100 / timelineItems.length}%`,
                     display: "inline-block",
