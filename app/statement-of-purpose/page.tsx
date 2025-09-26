@@ -73,17 +73,7 @@ export default function StatementOfPurpose() {
             </div>
           </section>
 
-          <section className="bg-gray-900 text-white p-4 xs:p-6 rounded-lg mt-6 xs:mt-8">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-white mb-3 xs:mb-4 text-center">Contact Us</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-800 flex justify-center">
-              <div className="text-sm xs:text-base sm:text-lg opacity-90 text-center">
-                <p>If you have questions about our mission or programs, please contact us:</p>
-                <p>📩 <strong>Email:</strong> <a href="mailto:info@drkumarfoundation.org" className="text-emerald-600 hover:underline">info@drkumarfoundation.org</a></p>
-                <p>🌐 <strong>Website:</strong> <a href="http://www.drkumarfoundation.org" className="text-emerald-600 hover:underline">www.drkumarfoundation.org</a></p>
-                <p>📍 <strong>Address:</strong> Dr. Kumar Foundation USA, [Insert Official Address]</p>
-              </div>
-            </div>
-          </section>
+         
         </main>
 
         <footer className="bg-emerald-600 text-white text-center py-3 xs:py-4">

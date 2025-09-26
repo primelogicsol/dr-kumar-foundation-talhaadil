@@ -82,7 +82,7 @@ export default function ContactPage() {
                   </svg>
                   <div>
                     <h4 className="font-medium">Phone</h4>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+1 (916) 699 0091</p>
                   </div>
                 </div>
 
@@ -104,7 +104,7 @@ export default function ContactPage() {
                   </svg>
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <p className="text-muted-foreground">contact@drkumarfoundation.org</p>
+                    <p className="text-muted-foreground">contact@dkf.sufisciencecenter.info</p>
                   </div>
                 </div>
 
@@ -129,15 +129,13 @@ export default function ContactPage() {
                     <p className="text-muted-foreground">
                       Sufi Science Center
                       <br />
-                      123 Serenity Lane
+                      One Loudoun
                       <br />
-                      Berkeley, CA 94704, USA
+                      Loudon, Virginia 20147, USA
                     </p>
                   </div>
                 </div>
               </div>
-
-             
             </div>
 
             <div>
@@ -222,16 +220,16 @@ export default function ContactPage() {
               <p className="text-muted-foreground mb-4">
                 Sufi Science Center
                 <br />
-                123 Serenity Lane
+                One Loudoun
                 <br />
-                Berkeley, CA 94704
+                Loudon, Virginia 20147
                 <br />
                 United States
               </p>
               <p className="text-sm">
-                <span className="font-medium">Phone:</span> +1 (555) 123-4567
+                <span className="font-medium">Phone:</span> +1 (916) 699 0091
                 <br />
-                <span className="font-medium">Email:</span> usa@drkumarfoundation.org
+                <span className="font-medium">Email:</span> contact@dkf.sufisciencecenter.info
               </p>
             </div>
 
@@ -273,8 +271,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
-     
     </div>
   )
 }

@@ -62,7 +62,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button className="bg-emerald-600 hover:bg-emerald-800 text-black text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Learn More About the Center<br />Visit SSC
+                    Learn More About the Center<br />
                   </a>
                 </Button>
               </CardContent>
@@ -370,7 +370,7 @@ export default function ProjectsPage() {
             <Card className="h-full transition-all hover:shadow-md">
               <div className="relative aspect-[3/2]">
                 <Image
-                  src="/picture/13-min.png"
+                  src="/picture/17-min.png"
                   alt="Sufi Science Center"
                   fill
                   className="object-cover rounded-t-lg"
@@ -535,7 +535,7 @@ export default function ProjectsPage() {
             </p>
             <Button className="bg-emerald-600 hover:bg-emerald-800 text-black text-xs sm:text-sm text-wrap break-words" asChild>
               <a href="https://sufisciencecenter.info/collaboration" target="_blank" rel="noopener noreferrer">
-                Ways to Collaborate With Us<br />Visit SSC
+                Ways to Collaborate With Us<br />
               </a>
             </Button>
           </div>

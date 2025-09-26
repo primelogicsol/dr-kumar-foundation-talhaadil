@@ -132,11 +132,32 @@ export default function TermsOfService() {
             <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-800">
               <div className="text-sm xs:text-base sm:text-lg opacity-90 text-left">
                 <p>If you have questions about these Terms of Service, please contact us:</p>
-                <p className="flex items-center"><Mail className="mr-2" size={20} /> <strong>Email:</strong> <a href="mailto:info@drkumarfoundation.org" className="text-emerald-600 hover:underline">info@drkumarfoundation.org</a></p>
-                <p className="flex items-center"><Globe className="mr-2" size={20} /> <strong>Website:</strong> <a href="http://www.drkumarfoundation.org" className="text-emerald-600 hover:underline">www.drkumarfoundation.org</a></p>
-                <p className="flex items-center"><MapPin className="mr-2" size={20} /> <strong>Address:</strong> Dr. Kumar Foundation USA, [Insert Official Address]</p>
+                <p className="flex items-center">
+                  <Globe className="mr-2" size={20} />
+                  <strong>Phone:</strong>
+                  <a href="tel:+19166990091" className="text-emerald-600 hover:underline ml-1">
+                    +1 (916) 699 0091
+                  </a>
+                </p>
+
+                <p className="flex items-center">
+                  <Mail className="mr-2" size={20} />
+                  <strong>Email:</strong>
+                  <a href="mailto:contact@dkf.sufisciencecenter.info" className="text-emerald-600 hover:underline ml-1">
+                    contact@dkf.sufisciencecenter.info
+                  </a>
+                </p>
+
+                <p className="flex items-center">
+                  <MapPin className="mr-2" size={20} />
+                  <strong>Address:</strong>
+                  <span className="ml-1">
+                    Sufi Science Center, One Loudoun, Loudon, Virginia 20147, USA
+                  </span>
+                </p>
+
               </div>
-            </div>
+              </div>
           </section>
 
           <section>

@@ -32,8 +32,7 @@ export default function SufiSciencePage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h2 className="font-serif text-3xl font-bold mb-6">What is the Sufi Science Center?</h2>{" "}
-              {/* Updated text */}
+              <h2 className="font-serif text-3xl font-bold mb-6">What is the Sufi Science Center?</h2>
               <p className="mb-4">
                 The Sufi Science Center is not about proving spiritual concepts through scientific methods, nor is it
                 about imposing mystical interpretations on scientific findings. Rather, it is a recognition that both
@@ -51,12 +50,12 @@ export default function SufiSciencePage() {
                 increasingly blurred.
               </p>
             </div>
-            <div className="relative aspect-square">
-              <Image
-                src="/placeholder.svg?height=600&width=600"
-                alt="Visual representation of Sufi Science Center" // Updated alt text
-                fill
-                className="object-cover rounded-lg"
+            <div className="relative w-[200] h-[450]">
+              <video
+                src="/sufi-video.mp4"
+                controls
+                alt="Video representation of Sufi Science Center"
+                className="object-fit rounded-lg w-full h-full"
               />
             </div>
           </div>
@@ -99,7 +98,6 @@ export default function SufiSciencePage() {
           </div>
         </div>
       </section>
-
       <section className="py-16 bg-gray-50 dark:bg-gray-900">
         <div className="container">
           <h2 className="font-serif text-3xl font-bold text-center mb-12">The Sufi Science Center</h2>
@@ -108,7 +106,7 @@ export default function SufiSciencePage() {
             <div className="lg:col-span-2">
               <div className="relative aspect-video mb-6">
                 <Image
-                  src="/placeholder.svg?height=720&width=1280"
+                  src="/sufi.png"
                   alt="The Sufi Science Center in Berkeley, California"
                   fill
                   className="object-cover rounded-lg"
@@ -367,7 +365,7 @@ export default function SufiSciencePage() {
             <Card className="h-full transition-all hover:shadow-md">
               <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/interview.webp"
                   alt="Journal of Sufi Science Center"
                   fill
                   className="object-cover rounded-t-lg"
@@ -416,7 +414,7 @@ export default function SufiSciencePage() {
             <Card className="h-full transition-all hover:shadow-md">
               <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/dialog.webp"
                   alt="Inspiring Interviews"
                   fill
                   className="object-cover rounded-t-lg"
