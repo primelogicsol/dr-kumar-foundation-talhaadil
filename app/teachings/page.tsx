@@ -29,10 +29,10 @@ export default function TeachingsPage() {
           </div>
 
           <Tabs defaultValue="fana" className="max-w-4xl mx-auto">
-            <TabsList className="grid grid-cols-3 mb-8">
-              <TabsTrigger value="fana">Fana & Baqa</TabsTrigger>
-              <TabsTrigger value="qalandari">Qalandari Path</TabsTrigger>
-              <TabsTrigger value="healing">Divine Healing</TabsTrigger>
+            <TabsList className="grid grid-cols-3 mb-8 bg-gray-200 dark:bg-gray-800 rounded-lg p-1">
+              <TabsTrigger value="fana" className="data-[state=active]:bg-emerald-600 data-[state=active]:text-white rounded-md py-2">Fana & Baqa</TabsTrigger>
+              <TabsTrigger value="qalandari" className="data-[state=active]:bg-emerald-600 data-[state=active]:text-white rounded-md py-2">Qalandari Path</TabsTrigger>
+              <TabsTrigger value="healing" className="data-[state=active]:bg-emerald-600 data-[state=active]:text-white rounded-md py-2">Divine Healing</TabsTrigger>
             </TabsList>
 
             <TabsContent value="fana" className="space-y-8">
@@ -256,7 +256,6 @@ export default function TeachingsPage() {
           </Tabs>
         </div>
       </section>
-
       <section className="py-16 bg-gray-50 dark:bg-gray-900">
         <div className="container">
           <h2 className="font-serif text-3xl font-bold text-center mb-12">Related Resources</h2>

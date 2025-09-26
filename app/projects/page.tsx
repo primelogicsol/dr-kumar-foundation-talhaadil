@@ -62,7 +62,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button className="bg-emerald-600 hover:bg-emerald-800 text-black text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Learn More About the Center
+                    Learn More About the Center<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -96,7 +96,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Need support for healing initiatives? Visit SSC
+                    Need support for healing initiatives?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -119,7 +119,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Seeking funding for silent retreats? Visit SSC
+                    Seeking funding for silent retreats?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -142,7 +142,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Need assistance for community healing? Visit SSC
+                    Need assistance for community healing?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -165,7 +165,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Want to create meditation spaces? Visit SSC
+                    Want to create meditation spaces?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -192,7 +192,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Need eco-project support? Visit SSC
+                    Need eco-project support?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -215,7 +215,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Seeking partnership for sacred landscapes? Visit SSC
+                    Seeking partnership for sacred landscapes?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -238,7 +238,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Want to start environmental programs? Visit SSC
+                    Want to start environmental programs?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -261,7 +261,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Interested in eco-living initiatives? Visit SSC
+                    Interested in eco-living initiatives?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -288,7 +288,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufipulse.com/" target="_blank" rel="noopener noreferrer">
-                    Want to host SufiPulse? Visit SufiPulse
+                    Want to host SufiPulse?<br />Visit SufiPulse
                   </a>
                 </Button>
               </CardContent>
@@ -311,7 +311,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://khcrf.org/" target="_blank" rel="noopener noreferrer">
-                    Need craft project support? Visit KHRCF
+                    Need craft project support?<br />Visit KHRCF
                   </a>
                 </Button>
               </CardContent>
@@ -334,7 +334,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufipulse.com/" target="_blank" rel="noopener noreferrer">
-                    Interested in partnerships? Visit SufiPulse
+                    Interested in partnerships?<br />Visit SufiPulse
                   </a>
                 </Button>
               </CardContent>
@@ -357,7 +357,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Need archival support? Visit SSC
+                    Need archival support?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -384,7 +384,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Want collaboration or research support? Visit SSC
+                    Want collaboration or research support?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -407,7 +407,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Need support for interfaith work? Visit SSC
+                    Need support for interfaith work?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -430,7 +430,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Seeking fellowship funding? Visit SSC
+                    Seeking fellowship funding?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -453,7 +453,7 @@ export default function ProjectsPage() {
                 </p>
                 <Button variant="outline" className="mt-2 bg-transparent text-xs sm:text-sm text-wrap break-words" asChild>
                   <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                    Need resources for peacebuilding? Visit SSC
+                    Need resources for peacebuilding?<br />Visit SSC
                   </a>
                 </Button>
               </CardContent>
@@ -472,7 +472,7 @@ export default function ProjectsPage() {
                   </p>
                   <Button variant="outline" className="mt-2 bg-transparent text-xs text-wrap break-words" asChild>
                     <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                      Need preservation assistance? Visit SSC
+                      Need preservation assistance?<br />Visit SSC
                     </a>
                   </Button>
                 </CardContent>
@@ -486,7 +486,7 @@ export default function ProjectsPage() {
                   </p>
                   <Button variant="outline" className="mt-2 bg-transparent text-xs text-wrap break-words" asChild>
                     <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                      Want support for women’s programs? Visit SSC
+                      Want support for women’s programs?<br />Visit SSC
                     </a>
                   </Button>
                 </CardContent>
@@ -500,7 +500,7 @@ export default function ProjectsPage() {
                   </p>
                   <Button variant="outline" className="mt-2 bg-transparent text-xs text-wrap break-words" asChild>
                     <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                      Interested in e-learning partnerships? Visit SSC
+                      Interested in e-learning partnerships?<br />Visit SSC
                     </a>
                   </Button>
                 </CardContent>
@@ -514,7 +514,7 @@ export default function ProjectsPage() {
                   </p>
                   <Button variant="outline" className="mt-2 bg-transparent text-xs text-wrap break-words" asChild>
                     <a href="https://sufisciencecenter.info/" target="_blank" rel="noopener noreferrer">
-                      Want to volunteer or contribute? Visit SSC
+                      Want to volunteer or contribute?<br />Visit SSC
                     </a>
                   </Button>
                 </CardContent>
@@ -535,7 +535,7 @@ export default function ProjectsPage() {
             </p>
             <Button className="bg-emerald-600 hover:bg-emerald-800 text-black text-xs sm:text-sm text-wrap break-words" asChild>
               <a href="https://sufisciencecenter.info/collaboration" target="_blank" rel="noopener noreferrer">
-                Ways to Collaborate With Us
+                Ways to Collaborate With Us<br />Visit SSC
               </a>
             </Button>
           </div>

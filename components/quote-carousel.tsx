@@ -54,7 +54,7 @@ export default function QuoteCarousel() {
   return (
     <div className="relative max-w-3xl mx-auto">
       <div className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-4 md:-translate-x-12">
-        <Button variant="ghost" size="icon" onClick={handlePrevious} className="rounded-full">
+        <Button variant="ghost" size="icon" onClick={handlePrevious} className="rounded-full bg-emerald-600">
           <ChevronLeft className="h-6 w-6" />
           <span className="sr-only">Previous quote</span>
         </Button>
@@ -85,7 +85,7 @@ export default function QuoteCarousel() {
       </div>
 
       <div className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-4 md:translate-x-12">
-        <Button variant="ghost" size="icon" onClick={handleNext} className="rounded-full">
+        <Button variant="ghost" size="icon" onClick={handleNext} className="rounded-full bg-emerald-600">
           <ChevronRight className="h-6 w-6" />
           <span className="sr-only">Next quote</span>
         </Button>

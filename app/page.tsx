@@ -62,7 +62,7 @@ export default function Home() {
             His Life – The Saint's Journey
           </h2>
           <Timeline />
-          <div className="text-center mt-6 sm:mt-8">
+          <div className="text-right mt-6 sm:mt-8">
             <Button className="bg-emerald-600 hover:bg-emerald-800 text-black text-sm sm:text-base" asChild>
               <Link href="/his-life">
                 Read Full Biography <ChevronRight className="ml-2 h-4 w-4" />

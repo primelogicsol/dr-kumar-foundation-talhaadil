@@ -53,22 +53,20 @@ export default function SiteFooter() {
               <ul className="space-y-2">
                 <li>
                   <Link href="/sufi-science" className="text-muted-foreground hover:text-foreground">
-                    Sufi Science Center {/* Updated text */}
+                    Sufi Science Center
                   </Link>
                 </li>
                 <li>
                   <Link href="/media-library" className="text-muted-foreground hover:text-foreground">
-                    SufiPulse Media {/* Updated text */}
+                    SufiPulse Media
                   </Link>
                 </li>
-
               </ul>
             </div>
 
             <div>
               <h3 className="font-medium mb-3">Connect</h3>
               <ul className="space-y-2">
-
                 <li>
                   <Link href="/contact" className="text-muted-foreground hover:text-foreground">
                     Contact
@@ -80,9 +78,15 @@ export default function SiteFooter() {
         </div>
 
         <div className="border-t pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            🌐 "Dr. Kumar Foundation USA – We Exist to Awaken, Not to Profit."
-          </p>
+           <div className="flex flex-col gap-2">
+            <p className="text-gray-500 text-sm">
+              © 2025 SufiPulse. A project of <a href="http://sufipulse.com" target="_blank" className="text-emerald-600 hover:underline">SufiPulse</a> & <a href="https://sufisciencecenter.info/" target="_blank" className="text-emerald-600 hover:underline">Sufi Science Center USA</a>.
+            </p>
+            <p className="text-gray-500 text-sm">
+              Website designed, developed & maintained by <a href="https://primelogicsol.com" target="_blank" className="text-emerald-600 hover:underline">Prime Logic Solutions USA</a>
+            </p>
+          </div>
+          
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="text-sm text-muted-foreground hover:text-foreground">
               Privacy Policy
@@ -96,9 +100,7 @@ export default function SiteFooter() {
           </div>
         </div>
 
-        <div className="text-center mt-8 text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Dr. Kumar Foundation. All rights reserved.
-        </div>
+       
       </div>
     </footer>
   )

@@ -9,35 +9,35 @@ const timelineItems = [
     id: 1,
     title: "Birth and Early Light",
     description:
-      "Born in 1935 into a respected Kashmiri family with a strong lineage of scholars, healers, and seekers, Dr. Kumar grew up in an environment where learning and spirituality were part of daily life. From an early age, he displayed an unusual sensitivity to nature and an inner awareness that set him apart from other children. Elders in his family noticed his contemplative temperament, his deep compassion for people and animals, and his natural inclination toward silence and reflection. These early traits, nurtured by the cultural richness of Kashmir and the wisdom traditions within his family, became the foundation for his later journey as a physician, mystic, and spiritual teacher.",
+      "Born in 1935 into a Kashmiri family of scholars and healers, Dr. Kumar grew up in an environment where learning and spirituality were part of daily life. From his earliest years, he displayed a rare sensitivity to nature, animals, and the unseen mysteries of existence. Elders noticed his contemplative nature and his tendency toward silence and reflection, unusual traits in a child. His compassion for others stood out, as he often cared for both people and creatures around him. The cultural richness of Kashmir provided a fertile ground for nurturing his inner depth. His family’s wisdom traditions gave him a foundation rooted in both knowledge and faith. These early qualities became the seeds of his journey as physician, mystic, and spiritual teacher.",
     alt: "Birth and Early Life of Dr. Kumar",
   },
   {
     id: 2,
     title: "From Medicine to Mysticism",
     description:
-      "After serving in government medical service, Dr. Kumar experienced a profound spiritual shift that changed the course of his life.",
+      "As a government physician, Dr. Kumar served tirelessly in remote Kashmiri villages, often reaching people who had little or no access to healthcare. His patients respected him deeply for his skill and his unwavering empathy. Yet, despite these successes, he felt a growing emptiness inside, a sense that medicine could only touch the surface of suffering. He began to question the nature of life, death, and healing itself. The limits of science pushed him toward a search for deeper truths beyond the body. His restlessness became a call to look within, a call he could not ignore. This turning point marked the slow but steady shift from medicine toward mysticism and inner discovery.",
     alt: "Dr. Kumar's transition from medicine to mysticism",
   },
   {
     id: 3,
     title: "14 Years in Silence",
     description:
-      "Dr. Kumar spent 14 years in the jungle of Ganderbal, living in complete silence and experiencing the Fana phase of spiritual dissolution.",
+      "Dr. Kumar eventually withdrew from society and entered the forests of Ganderbal, where he lived for 14 years in silence and solitude. With nothing but the barest essentials, he surrendered to contemplation, prayer, and meditation. During this period, he experienced the state of Fana, the annihilation of the self in the Divine. Villagers who caught rare glimpses of him described an aura of stillness and light, as though he belonged to another world. The natural world became both his companion and his teacher, shaping his inner transformation. His silence deepened into an unbroken state of awareness beyond ordinary thought. When he emerged from the forest, many felt they were seeing an entirely new being, no longer the physician they once knew.",
     alt: "Dr. Kumar's years of silence in Ganderbal",
   },
   {
     id: 4,
     title: "Return as a Qalandar",
     description:
-      "He returned to society as a Qalandar, having achieved the state of Fana-i-Fillah, complete annihilation in the Divine.",
+      "When Dr. Kumar reemerged after years of solitude, he carried no trace of his former identity. He had become a Qalandar, one who lives in total surrender to the Divine. Possessions, conventions, and personal concerns no longer defined him; he walked freely, belonging to no one and to everyone. His state was described as Fana-i-Fillah, a life lived only through the presence of God. Those who met him often felt a silence more eloquent than words, as if the Divine itself spoke through his stillness. His presence inspired awe, comfort, and transformation in equal measure. To many, he embodied a living reflection of the sacred, a reminder that true freedom lies beyond the self.",
     alt: "Dr. Kumar's return as a Qalandar",
   },
   {
     id: 5,
     title: "Global Light",
     description:
-      "Dr. Kumar's influence spread across continents as he shared his teachings on inner healing, environmental consciousness, and spiritual awakening.",
+      "The radiance of Dr. Kumar’s being soon extended beyond Kashmir, carried by seekers who had encountered him. His influence reached Europe, North America, and other parts of the world, where he was welcomed with reverence. Wherever he traveled, his message remained simple: seek stillness, discover the soul within, and live in harmony with the earth. He avoided rigid doctrines and spoke instead from direct experience, allowing each listener to feel their own inner truth. His teachings inspired communities dedicated to meditation, ecological awareness, and compassionate living. Many found in his presence a healing deeper than words, one that restored both spirit and heart. Through these journeys, his vision of unity and compassion blossomed into a global movement.",
     alt: "Dr. Kumar's global influence",
   },
 ]
@@ -84,7 +84,7 @@ export default function Timeline() {
           <p className="text-lg mb-6">{timelineItems[activeIndex].description}</p>
 
           <div className="flex items-center">
-            <div className="w-full bg-gray-200 dark:bg-gray-700 h-1 rounded-full overflow-hidden">
+            <div className="w-full bg-gray-200 dark:bg-emerald-600 h-1 rounded-full overflow-hidden">
               {timelineItems.map((_, index) => (
                 <div
                   key={index}

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Mail, Globe, MapPin } from 'lucide-react';
 
 export default function TermsOfService() {
   return (
@@ -19,25 +20,25 @@ export default function TermsOfService() {
 
         <main className="max-w-6xl mx-auto px-4 sm:px-6 py-8 xs:py-10 sm:py-12">
           <section className="mb-8 xs:mb-10">
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 Welcome to the website of Dr. Kumar Foundation USA (“the Foundation,” “we,” “our,” or “us”). By accessing or using our website, programs, or services, you agree to comply with and be bound by these Terms of Service. Please read them carefully.
               </p>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">1. Purpose of the Foundation</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">1. Purpose of the Foundation</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 Dr. Kumar Foundation USA is a non-profit organization dedicated to spreading the teachings of Dr. Ghulam Mohammad Kumar (Qalandar-e-Kashmir) on healing, peace, and spiritual awakening. All services, programs, and online resources are provided to support our educational, cultural, and charitable mission.
               </p>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">2. Use of Our Website and Services</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">2. Use of Our Website and Services</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
               <ul className="list-disc pl-5 xs:pl-6 text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 <li className="mb-2">You agree to use our website and services only for lawful, non-commercial purposes consistent with the Foundation’s mission.</li>
                 <li className="mb-2">You may not misuse our content, attempt unauthorized access, or disrupt the website’s functionality.</li>
@@ -47,8 +48,8 @@ export default function TermsOfService() {
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">3. Intellectual Property</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">3. Intellectual Property</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
               <ul className="list-disc pl-5 xs:pl-6 text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 <li className="mb-2">All website content, including text, images, audio, video, and digital materials, are the property of Dr. Kumar Foundation USA unless otherwise credited.</li>
                 <li className="mb-2">Content may not be copied, distributed, modified, or used for commercial purposes without prior written consent.</li>
@@ -58,8 +59,8 @@ export default function TermsOfService() {
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">4. Donations & Contributions</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">4. Donations & Contributions</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
               <ul className="list-disc pl-5 xs:pl-6 text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 <li className="mb-2">All donations and financial contributions in support of our mission are processed and managed by the Sufi Science Center, a sister concern of Dr. Kumar Foundation USA.</li>
                 <li className="mb-2">Donations are voluntary and non-refundable.</li>
@@ -70,8 +71,8 @@ export default function TermsOfService() {
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">5. Events, Programs, and Participation</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">5. Events, Programs, and Participation</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
               <ul className="list-disc pl-5 xs:pl-6 text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 <li className="mb-2">Registration may be required for certain workshops, symposia, or events.</li>
                 <li className="mb-2">The Foundation reserves the right to modify, cancel, or reschedule events as needed.</li>
@@ -81,17 +82,17 @@ export default function TermsOfService() {
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">6. External Links</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">6. External Links</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 Our website may contain links to third-party websites (e.g., YouTube, partner organizations). We are not responsible for the content, practices, or policies of external sites.
               </p>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">7. Limitation of Liability</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">7. Limitation of Liability</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
               <ul className="list-disc pl-5 xs:pl-6 text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 <li className="mb-2">The Foundation provides its resources “as is,” without guarantees of accuracy, reliability, or completeness.</li>
                 <li>We are not liable for any damages resulting from the use or inability to use our website, events, or publications.</li>
@@ -100,48 +101,48 @@ export default function TermsOfService() {
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">8. Indemnification</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">8. Indemnification</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 By using our services, you agree to indemnify and hold harmless Dr. Kumar Foundation USA, its directors, staff, and volunteers from any claims, liabilities, or expenses arising from your misuse of the website or violation of these Terms.
               </p>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">9. Changes to These Terms</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">9. Changes to These Terms</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 We may update these Terms of Service periodically. Continued use of the website after changes are posted constitutes acceptance of the revised Terms.
               </p>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">10. Governing Law</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">10. Governing Law</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 These Terms are governed by the laws of the United States and the State of [Insert State of Registration], without regard to conflict of law principles.
               </p>
             </div>
           </section>
 
           <section className="bg-gray-900 text-white p-4 xs:p-6 rounded-lg mt-6 xs:mt-8">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-white mb-3 xs:mb-4 text-center">11. Contact Us</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-800 flex justify-center">
-              <div className="text-sm xs:text-base sm:text-lg opacity-90 text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-white mb-3 xs:mb-4 text-left">11. Contact Us</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-800">
+              <div className="text-sm xs:text-base sm:text-lg opacity-90 text-left">
                 <p>If you have questions about these Terms of Service, please contact us:</p>
-                <p>📩 Email: info@drkumarfoundation.org</p>
-                <p>🌐 Website: www.drkumarfoundation.org</p>
-                <p>📍 Address: Dr. Kumar Foundation USA, [Insert Official Address]</p>
+                <p className="flex items-center"><Mail className="mr-2" size={20} /> <strong>Email:</strong> <a href="mailto:info@drkumarfoundation.org" className="text-emerald-600 hover:underline">info@drkumarfoundation.org</a></p>
+                <p className="flex items-center"><Globe className="mr-2" size={20} /> <strong>Website:</strong> <a href="http://www.drkumarfoundation.org" className="text-emerald-600 hover:underline">www.drkumarfoundation.org</a></p>
+                <p className="flex items-center"><MapPin className="mr-2" size={20} /> <strong>Address:</strong> Dr. Kumar Foundation USA, [Insert Official Address]</p>
               </div>
             </div>
           </section>
 
           <section>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-center text-emerald-600 italic text-sm xs:text-base sm:text-lg">
-                ✨ By using this website and participating in our programs, you agree to honor the spirit of the Foundation: awakening, service, and respect for human dignity.
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-left text-emerald-600 italic text-sm xs:text-base sm:text-lg max-w-3xl">
+                By using this website and participating in our programs, you agree to honor the spirit of the Foundation: awakening, service, and respect for human dignity.
               </p>
             </div>
           </section>

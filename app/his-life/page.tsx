@@ -87,9 +87,12 @@ export default function HisLifePage() {
                       <div>Return as a Qalandar</div>
                     </li>
                     <li className="flex gap-3">
-                      <div className="font-bold min-w-[60px]">1999-till today</div>
+                      <div className="font-bold min-w-[60px]">
+                        1999-{new Date().getFullYear() - 2000}
+                      </div>
                       <div>Started teaching and healing</div>
                     </li>
+
                     <li className="flex gap-3">
                       <div className="font-bold min-w-[60px]">2022</div>
                       <div>Established Sufi Science Center (USA)</div>
@@ -114,7 +117,7 @@ export default function HisLifePage() {
                   <blockquote className="italic text-lg leading-relaxed text-gray-700 border-l-4 border-emerald-600 pl-4">
                     “This work is not history, but a living bridge. As his disciple, I have tried to carry Dr. Kumar’s light into the language of our times, so new seekers may walk the same path of silence and awakening.”
                   </blockquote>
-                  <p className="mt-4 text-right font-medium text-gray-600">
+                  <p className="mt-4 text-right font-medium text-emerald-600">
                     — Disciple <span className="font-semibold">Dr Zarf-e-Noori</span>
                   </p>
                 </CardContent>
@@ -137,7 +140,7 @@ export default function HisLifePage() {
             <h2 className="font-serif text-3xl font-bold mb-6">14 Years in Silence</h2>
             <div className="relative aspect-video mb-8">
               <Image
-                src="/14-silence.png"
+                src="/16-silence.png"
                 alt="The jungle of Ganderbal where Dr. Kumar spent 14 years in silence"
                 fill
                 className="object-cover rounded-lg"

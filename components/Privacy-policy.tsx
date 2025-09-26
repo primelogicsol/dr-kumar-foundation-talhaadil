@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Mail, Globe, MapPin } from 'lucide-react';
 
 export default function PrivacyPolicy() {
   return (
@@ -19,16 +20,16 @@ export default function PrivacyPolicy() {
 
         <main className="max-w-6xl mx-auto px-4 sm:px-6 py-8 xs:py-10 sm:py-12">
           <section className="mb-8 xs:mb-10">
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 Dr. Kumar Foundation USA (“we,” “our,” or “the Foundation”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you interact with our websites, programs, and online platforms.
               </p>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">1. Information We Collect</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">1. Information We Collect</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
               <div className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 <p>We may collect the following types of information:</p>
                 <ul className="list-disc pl-5 xs:pl-6 mt-2">
@@ -41,8 +42,8 @@ export default function PrivacyPolicy() {
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">2. How We Use Your Information</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">2. How We Use Your Information</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
               <div className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 <p>We use the information we collect to:</p>
                 <ul className="list-disc pl-5 xs:pl-6 mt-2">
@@ -57,8 +58,8 @@ export default function PrivacyPolicy() {
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">3. Sharing of Information</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">3. Sharing of Information</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
               <div className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 <p>We respect your privacy. We do not sell, trade, or rent your personal information. Your information may be shared only with:</p>
                 <ul className="list-disc pl-5 xs:pl-6 mt-2">
@@ -70,44 +71,44 @@ export default function PrivacyPolicy() {
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">4. Cookies & Tracking Technologies</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">4. Cookies & Tracking Technologies</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 Our website may use cookies to improve user experience, analyze trends, and gather demographic information. You may disable cookies through your browser settings, though some features of the site may not function properly.
               </p>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">5. Data Security</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">5. Data Security</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 We use industry-standard practices to protect your information. However, no electronic storage or transmission is completely secure, and we cannot guarantee absolute security.
               </p>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">6. Children’s Privacy</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">6. Children’s Privacy</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 Our website and programs are not directed toward children under 13. We do not knowingly collect personal information from children.
               </p>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">7. International Visitors</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">7. International Visitors</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 As a U.S.-based foundation, all data collected is processed under U.S. privacy laws. If you are accessing our site from outside the U.S., you consent to the transfer and processing of your information in the United States.
               </p>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">8. Your Rights</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">8. Your Rights</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
               <div className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 <p>Depending on your jurisdiction, you may have the right to:</p>
                 <ul className="list-disc pl-5 xs:pl-6 mt-2">
@@ -121,29 +122,29 @@ export default function PrivacyPolicy() {
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-center">9. Changes to this Policy</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-emerald-600 mb-3 xs:mb-4 text-left">9. Changes to this Policy</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-sm xs:text-base sm:text-lg text-gray-900 max-w-3xl text-left">
                 We may update this Privacy Policy periodically. The “Effective Date” above reflects the most recent update. Please review this page regularly to stay informed.
               </p>
             </div>
           </section>
 
           <section className="bg-gray-900 text-white p-4 xs:p-6 rounded-lg mt-6 xs:mt-8">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-white mb-3 xs:mb-4 text-center">10. Contact Us</h2>
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-800 flex justify-center">
-              <div className="text-sm xs:text-base sm:text-lg opacity-90 text-center">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-white mb-3 xs:mb-4 text-left">10. Contact Us</h2>
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-800">
+              <div className="text-sm xs:text-base sm:text-lg opacity-90 text-left">
                 <p>If you have questions about this Privacy Policy or our practices, please contact us:</p>
-                <p>📩 <strong>Email:</strong> <a href="mailto:info@drkumarfoundation.org" className="text-emerald-600 hover:underline">info@drkumarfoundation.org</a></p>
-                <p>🌐 <strong>Website:</strong> <a href="http://www.drkumarfoundation.org" className="text-emerald-600 hover:underline">www.drkumarfoundation.org</a></p>
-                <p>📍 <strong>Address:</strong> Dr. Kumar Foundation USA, [Insert Official Address]</p>
+                <p className="flex items-center"><Mail className="mr-2" size={20} /> <strong>Email:</strong> <a href="mailto:info@drkumarfoundation.org" className="text-emerald-600 hover:underline">info@drkumarfoundation.org</a></p>
+                <p className="flex items-center"><Globe className="mr-2" size={20} /> <strong>Website:</strong> <a href="http://www.drkumarfoundation.org" className="text-emerald-600 hover:underline">www.drkumarfoundation.org</a></p>
+                <p className="flex items-center"><MapPin className="mr-2" size={20} /> <strong>Address:</strong> Dr. Kumar Foundation USA, [Insert Official Address]</p>
               </div>
             </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
-            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50 flex justify-center">
-              <p className="text-center text-emerald-600 italic text-sm xs:text-base sm:text-lg max-w-3xl">
+            <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
+              <p className="text-left text-emerald-600 italic text-sm xs:text-base sm:text-lg max-w-3xl">
                 At Dr. Kumar Foundation USA, your trust is sacred. We handle your data with the same care and respect with which we share Dr. Kumar’s teachings — with integrity, transparency, and responsibility.
               </p>
             </div>
