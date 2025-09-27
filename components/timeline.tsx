@@ -9,7 +9,7 @@ const timelineItems = [
     id: 1,
     title: "Birth and Early Light",
     description:
-      "Born in 1935 into a Kashmiri family of scholars and healers, Dr. Kumar grew up in an environment where learning and spirituality were part of daily life. From his earliest years, he displayed a rare sensitivity to nature, animals, and the unseen mysteries of existence. Elders noticed his contemplative nature and his tendency toward silence and reflection, unusual traits in a child. His compassion for others stood out, as he often cared for both people and creatures around him. The cultural richness of Kashmir provided a fertile ground for nurturing his inner depth. His family’s wisdom traditions gave him a foundation rooted in both knowledge and faith. These early qualities became the seeds of his journey as physician, mystic, and spiritual teacher.",
+      "Born in 1957 into a Kashmiri family of scholars and healers, Dr. Kumar grew up in an environment where learning and spirituality were part of daily life. From his earliest years, he displayed a rare sensitivity to nature, animals, and the unseen mysteries of existence. Elders noticed his contemplative nature and his tendency toward silence and reflection, unusual traits in a child. His compassion for others stood out, as he often cared for both people and creatures around him. The cultural richness of Kashmir provided a fertile ground for nurturing his inner depth. His family’s wisdom traditions gave him a foundation rooted in both knowledge and faith. These early qualities became the seeds of his journey as physician, mystic, and spiritual teacher.",
     alt: "Birth and Early Life of Dr. Kumar",
   },
   {

@@ -66,24 +66,8 @@ export default function ContactPage() {
 
               <div className="space-y-6 mb-8">
                 <div className="flex items-start gap-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5 mt-0.5 text-emerald-600"
-                  >
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                  </svg>
-                  <div>
-                    <h4 className="font-medium">Phone</h4>
-                    <p className="text-muted-foreground">+1 (916) 699 0091</p>
-                  </div>
+
+
                 </div>
 
                 <div className="flex items-start gap-3">
@@ -102,10 +86,13 @@ export default function ContactPage() {
                     <rect width="20" height="16" x="2" y="4" rx="2" />
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                   </svg>
-                  <div>
-                    <h4 className="font-medium">Email</h4>
-                    <p className="text-muted-foreground">contact@dkf.sufisciencecenter.info</p>
+                  <div className="max-w-full break-words overflow-hidden">
+                    <h4 className="font-medium text-sm sm:text-base">Email</h4>
+                    <p className="text-muted-foreground text-sm sm:text-base break-all">
+                      contact@dkf.sufisciencecenter.info
+                    </p>
                   </div>
+
                 </div>
 
                 <div className="flex items-start gap-3">
@@ -169,7 +156,7 @@ export default function ContactPage() {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <h2 className="font-serif text-3xl font-bold mb-6">Send a Message</h2>
 
-                  {error  && (
+                  {error && (
                     <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg text-red-600 dark:text-red-400">
                       {error}
                     </div>
@@ -212,7 +199,9 @@ export default function ContactPage() {
 
       <section className="py-16 bg-gray-50 dark:bg-gray-900">
         <div className="container">
-          <h2 className="font-serif text-3xl font-bold text-center mb-12">Our Global Offices</h2>
+          <h2 className="font-serif text-3xl font-bold text-center mb-12">
+            Our Global Offices
+          </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
@@ -229,7 +218,13 @@ export default function ContactPage() {
               <p className="text-sm">
                 <span className="font-medium">Phone:</span> +1 (916) 699 0091
                 <br />
-                <span className="font-medium">Email:</span> contact@dkf.sufisciencecenter.info
+                <span className="font-medium">Email:</span>{" "}
+                <a
+                  href="mailto:usa@dkf.sufisciencecenter.info"
+                  className="break-all text-blue-600 dark:text-blue-400"
+                >
+                  usa@dkf.sufisciencecenter.info
+                </a>
               </p>
             </div>
 
@@ -247,7 +242,13 @@ export default function ContactPage() {
               <p className="text-sm">
                 <span className="font-medium">Phone:</span> +91 (555) 987-6543
                 <br />
-                <span className="font-medium">Email:</span> kashmir@drkumarfoundation.org
+                <span className="font-medium">Email:</span>{" "}
+                <a
+                  href="mailto:kashmir_india@drkumarfoundation.org"
+                  className="break-all text-blue-600 dark:text-blue-400"
+                >
+                  kashmir_india@drkumarfoundation.org
+                </a>
               </p>
             </div>
 
@@ -265,7 +266,13 @@ export default function ContactPage() {
               <p className="text-sm">
                 <span className="font-medium">Phone:</span> +44 (20) 1234-5678
                 <br />
-                <span className="font-medium">Email:</span> europe@drkumarfoundation.org
+                <span className="font-medium">Email:</span>{" "}
+                <a
+                  href="mailto:europe@drkumarfoundation.org"
+                  className="break-all text-blue-600 dark:text-blue-400"
+                >
+                  europe@drkumarfoundation.org
+                </a>
               </p>
             </div>
           </div>

@@ -29,7 +29,7 @@ export default function TeachingsPage() {
           </div>
 
           <Tabs defaultValue="fana" className="max-w-4xl mx-auto">
-            <TabsList className="grid grid-cols-3 mb-8 bg-gray-200 dark:bg-gray-800 rounded-lg p-1">
+            <TabsList className="flex flex-col md:grid md:grid-cols-3 mb-10 bg-transparent rounded-lg p-1">
               <TabsTrigger value="fana" className="data-[state=active]:bg-emerald-600 data-[state=active]:text-white rounded-md py-2">Fana & Baqa</TabsTrigger>
               <TabsTrigger value="qalandari" className="data-[state=active]:bg-emerald-600 data-[state=active]:text-white rounded-md py-2">Qalandari Path</TabsTrigger>
               <TabsTrigger value="healing" className="data-[state=active]:bg-emerald-600 data-[state=active]:text-white rounded-md py-2">Divine Healing</TabsTrigger>
@@ -46,7 +46,9 @@ export default function TeachingsPage() {
                   </p>
                   <p>
                     Dr. Kumar emphasized that Fana is not about destruction of the self, but the loss of the illusion of
-                    separateness. What we call “I” is merely a bundle of thoughts, memories, and conditioned patterns — not
+                    separateness. What we call “I” is merely a bundle of thoughts, memories, and conditioned patterns
+
+ not
                     our essential being. To pass through Fana is to see through this illusion and recognize the deeper
                     reality of existence.
                   </p>
@@ -74,7 +76,9 @@ export default function TeachingsPage() {
                   <h2 className="font-serif text-3xl font-bold mb-4">The State of Baqa</h2>
                   <p className="mb-4">
                     Baqa, meaning “subsistence” or “permanence,” follows Fana on the spiritual path. After the false self
-                    dissolves, what remains is Baqa — abiding in and as the Divine presence.
+                    dissolves, what remains is Baqa
+
+ abiding in and as the Divine presence.
                   </p>
                   <p>
                     In this state, one continues to live and act in the world, but from a radically transformed center of
@@ -89,7 +93,9 @@ export default function TeachingsPage() {
                 <h3 className="font-serif text-xl font-bold mb-4">The Journey from Fana to Baqa</h3>
                 <p className="mb-4">
                   Dr. Kumar described the passage from Fana to Baqa as a process of “dying before death.” His 14 years in
-                  the forests of Ganderbal were the living expression of this journey — a complete surrender of his
+                  the forests of Ganderbal were the living expression of this journey
+
+ a complete surrender of his
                   identity, possessions, relationships, and even his medical knowledge.
                 </p>
                 <p>
@@ -103,7 +109,7 @@ export default function TeachingsPage() {
               <div className="text-center mt-8">
                 <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
                   <Link href="https://sufisciencecenter.info/beginyourjourney">
-                    Start Your Sufism Journey <ChevronRight className="ml-2 h-4 w-4" />
+                    Start Sufism Journey <ChevronRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
@@ -114,7 +120,9 @@ export default function TeachingsPage() {
                 <div>
                   <h2 className="font-serif text-3xl font-bold mb-4">The Qalandari Path</h2>
                   <p className="mb-4">
-                    After his emergence from 14 years of silence, Dr. Kumar was recognized as a Qalandar — a type of Sufi
+                    After his emergence from 14 years of silence, Dr. Kumar was recognized as a Qalandar
+
+ a type of Sufi
                     mystic who has transcended religious formalities and social conventions, living in a state of freedom
                     and divine intoxication.
                   </p>
@@ -138,7 +146,11 @@ export default function TeachingsPage() {
                 <h3 className="font-serif text-xl font-bold mb-4">Beyond Religious Boundaries</h3>
                 <p className="mb-4">
                   Dr. Kumar taught that the essence of all religions is the same: the recognition of our divine nature and
-                  the cultivation of love and compassion. He welcomed people of all faiths — and those of no faith —
+                  the cultivation of love and compassion. He welcomed people of all faiths
+
+ and those of no faith
+
+
                   seeing differences as merely different languages pointing to the same truth.
                 </p>
                 <p>
@@ -160,13 +172,17 @@ export default function TeachingsPage() {
                 <div className="order-1 md:order-2">
                   <h2 className="font-serif text-3xl font-bold mb-4">Presence and Awareness</h2>
                   <p className="mb-4">
-                    At the heart of Dr. Kumar’s teaching was the practice of presence — being fully awake in the moment,
+                    At the heart of Dr. Kumar’s teaching was the practice of presence
+
+ being fully awake in the moment,
                     free from the mind’s restless movement between past and future. For him, spirituality was not something
                     to be done occasionally but a way of being in every breath.
                   </p>
                   <p>
                     This presence was not just a practice but the essence of life itself. In his words: “When you are
-                    fully present, the Divine is also fully present, for the Divine is never absent — only our awareness
+                    fully present, the Divine is also fully present, for the Divine is never absent
+
+ only our awareness
                     is.”
                   </p>
                 </div>
@@ -175,7 +191,7 @@ export default function TeachingsPage() {
               <div className="text-center mt-8">
                 <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
                   <Link href="https://sufisciencecenter.info/corelearningpaths">
-                    Beginner's Checklist for the Sufi Journey <ChevronRight className="ml-2 h-4 w-4" />
+                    Beginner's Checklist <ChevronRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
@@ -233,7 +249,9 @@ export default function TeachingsPage() {
                   <h2 className="font-serif text-3xl font-bold mb-4">Self-Healing Practices</h2>
                   <p className="mb-4">
                     Dr. Kumar also emphasized that every person carries within them an innate capacity for self-healing. He
-                    introduced simple practices to awaken this capacity — including heart-centered breathing,
+                    introduced simple practices to awaken this capacity
+
+ including heart-centered breathing,
                     visualization, and meditation.
                   </p>
                   <p>
@@ -248,7 +266,7 @@ export default function TeachingsPage() {
               <div className="text-center mt-8">
                 <Button className="bg-emerald-600 hover:bg-emerald-800 text-black" asChild>
                   <Link href="https://sufisciencecenter.info/leadership&teaching">
-                    Personalized Teaching Path Assessment <ChevronRight className="ml-2 h-4 w-4" />
+                    Personalized Teaching <ChevronRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>

@@ -129,44 +129,56 @@ export default function PrivacyPolicy() {
               </p>
             </div>
           </section>
-
           <section className="bg-gray-900 text-white p-4 xs:p-6 rounded-lg mt-6 xs:mt-8">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold text-white mb-3 xs:mb-4 text-left">10. Contact Us</h2>
+            <h2 className="text-lg xs:text-xl sm:text-2xl font-semibold text-white mb-3 xs:mb-4 text-left break-words">
+              11. Contact Us
+            </h2>
+
             <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-800">
-              <div className="text-sm xs:text-base sm:text-lg opacity-90 text-left">
-                <p>If you have questions about this Privacy Policy or our practices, please contact us:</p>
-                <p className="flex items-center">
-                  <Globe className="mr-2" size={20} />
+              <div className="text-sm xs:text-base sm:text-lg opacity-90 text-left space-y-3">
+
+                <p>If you have questions about these Terms of Service, please contact us:</p>
+
+                <p className="flex flex-wrap items-center text-sm sm:text-base">
+                  <Globe className="mr-2 shrink-0" size={20} />
                   <strong>Phone:</strong>
-                  <a href="tel:+19166990091" className="text-emerald-600 hover:underline ml-1">
+                  <a
+                    href="tel:+19166990091"
+                    className="text-emerald-600 hover:underline ml-1 break-all"
+                  >
                     +1 (916) 699 0091
                   </a>
                 </p>
 
-                <p className="flex items-center">
-                  <Mail className="mr-2" size={20} />
+                <p className="flex flex-wrap items-center text-sm sm:text-base">
+                  <Mail className="mr-2 shrink-0" size={20} />
                   <strong>Email:</strong>
-                  <a href="mailto:contact@dkf.sufisciencecenter.info" className="text-emerald-600 hover:underline ml-1">
+                  <a
+                    href="mailto:contact@dkf.sufisciencecenter.info"
+                    className="text-emerald-600 hover:underline ml-1 break-all"
+                  >
                     contact@dkf.sufisciencecenter.info
                   </a>
                 </p>
 
-                <p className="flex items-center">
-                  <MapPin className="mr-2" size={20} />
+                <p className="flex flex-wrap items-start text-sm sm:text-base">
+                  <MapPin className="mr-2 shrink-0 mt-1" size={20} />
                   <strong>Address:</strong>
-                  <span className="ml-1">
+                  <span className="ml-1 break-words">
                     Sufi Science Center, One Loudoun, Loudon, Virginia 20147, USA
                   </span>
                 </p>
 
               </div>
-              </div>
+            </div>
           </section>
 
           <section className="mb-8 xs:mb-10">
             <div className="border border-gray-200 rounded-lg p-4 xs:p-6 bg-gray-50">
               <p className="text-left text-emerald-600 italic text-sm xs:text-base sm:text-lg max-w-3xl">
-                At Dr. Kumar Foundation USA, your trust is sacred. We handle your data with the same care and respect with which we share Dr. Kumar’s teachings — with integrity, transparency, and responsibility.
+                At Dr. Kumar Foundation USA, your trust is sacred. We handle your data with the same care and respect with which we share Dr. Kumar’s teachings
+
+ with integrity, transparency, and responsibility.
               </p>
             </div>
           </section>

@@ -33,7 +33,9 @@ export default function HisLifePage() {
                 His formal education led him to medicine, where he excelled as a physician. After completing his MBBS in 1981 at the age of 24, he joined the government medical service, providing healthcare to remote villages across Kashmir. Known for his generosity, he treated patients regardless of their ability to pay, earning a reputation for both skill and kindness.
               </p>
               <p className="mb-6 text-lg">
-                Yet even while serving as a doctor, Dr. Kumar felt an inner pull toward questions that medicine alone could not answer — the deeper roots of suffering, healing, and the mystery of existence. This inner tension quietly prepared him for a profound transformation.
+                Yet even while serving as a doctor, Dr. Kumar felt an inner pull toward questions that medicine alone could not answer
+
+ the deeper roots of suffering, healing, and the mystery of existence. This inner tension quietly prepared him for a profound transformation.
               </p>
 
               <h2 className="font-serif text-3xl font-bold mb-6 mt-12">The Spiritual Awakening</h2>
@@ -43,7 +45,9 @@ export default function HisLifePage() {
                     In 1975, at the age of 18, Dr. Kumar underwent what he later described as a “shattering of the self.” While visiting a remote mountain village, he encountered an elderly mystic who spoke of the limitations of physical medicine and the deeper dimensions of human suffering.
                   </p>
                   <p className="text-lg">
-                    This meeting marked a turning point. In the months that followed, he experienced intense dreams, inner visions, and altered states of consciousness that defied his medical understanding. What began as a private unease soon unfolded into a spiritual crisis — a call that would eventually lead him away from conventional practice and into the path of mysticism.
+                    This meeting marked a turning point. In the months that followed, he experienced intense dreams, inner visions, and altered states of consciousness that defied his medical understanding. What began as a private unease soon unfolded into a spiritual crisis
+
+ a call that would eventually lead him away from conventional practice and into the path of mysticism.
                   </p>
                 </div>
                 <div className="md:w-1/2 relative aspect-[4/3]">
@@ -118,7 +122,9 @@ export default function HisLifePage() {
                     “This work is not history, but a living bridge. As his disciple, I have tried to carry Dr. Kumar’s light into the language of our times, so new seekers may walk the same path of silence and awakening.”
                   </blockquote>
                   <p className="mt-4 text-right font-medium text-emerald-600">
-                    — Disciple <span className="font-semibold">Dr Zarf-e-Noori</span>
+                   
+
+ Disciple <span className="font-semibold">Dr Zarf-e-Noori</span>
                   </p>
                 </CardContent>
               </Card>
@@ -150,18 +156,26 @@ export default function HisLifePage() {
               In 1983, Dr. Kumar made the radical decision to abandon his medical practice and all material possessions. He retreated into the dense forests of Ganderbal, where he would spend the next 14 years in almost complete silence and solitude.
             </p>
             <p className="mb-4 text-lg">
-              During this period, he lived with the barest essentials, often exposed to the elements, with little food or shelter. Villagers who occasionally encountered him described a man who seemed to exist between worlds — sometimes unaware of his surroundings, yet radiating an unusual peace and light.
+              During this period, he lived with the barest essentials, often exposed to the elements, with little food or shelter. Villagers who occasionally encountered him described a man who seemed to exist between worlds
+
+ sometimes unaware of his surroundings, yet radiating an unusual peace and light.
             </p>
             <p className="mb-4 text-lg">
-              This phase represented the Fana stage of his spiritual journey — the annihilation of the ego and dissolution of the separate self. In Sufi tradition, Fana is the necessary precursor to Baqa, or subsistence in the Divine. Those who knew him before and after this retreat often remarked that it was as if the physician had died in the forest, and a mystic had emerged.
+              This phase represented the Fana stage of his spiritual journey
+
+ the annihilation of the ego and dissolution of the separate self. In Sufi tradition, Fana is the necessary precursor to Baqa, or subsistence in the Divine. Those who knew him before and after this retreat often remarked that it was as if the physician had died in the forest, and a mystic had emerged.
             </p>
 
             <h2 className="font-serif text-3xl font-bold mb-6 mt-12">Return as a Qalandar</h2>
             <p className="mb-4 text-lg">
-              In 1998, Dr. Kumar emerged from the forest utterly transformed. He no longer identified himself as a doctor or by his former name. Instead, he lived as a Qalandar — a mystic who transcends religious formalities and social conventions, dwelling in a state of perpetual presence with the Divine.
+              In 1998, Dr. Kumar emerged from the forest utterly transformed. He no longer identified himself as a doctor or by his former name. Instead, he lived as a Qalandar
+
+ a mystic who transcends religious formalities and social conventions, dwelling in a state of perpetual presence with the Divine.
             </p>
             <p className="mb-4 text-lg">
-              He returned to society but lived with no possessions, no fixed abode, and spoke only when necessary. Yet people were drawn to him. Those who spent time in his presence reported experiences of profound peace, spontaneous healing, and answers to their deepest questions — often without him saying a word.
+              He returned to society but lived with no possessions, no fixed abode, and spoke only when necessary. Yet people were drawn to him. Those who spent time in his presence reported experiences of profound peace, spontaneous healing, and answers to their deepest questions
+
+ often without him saying a word.
             </p>
             <p className="mb-8 text-lg">
               This marked the beginning of his wider influence, as seekers from every walk of life and faith tradition began to approach him for guidance and healing.
@@ -175,7 +189,9 @@ export default function HisLifePage() {
               In 2005, the Sufi Science Center was established in Berkeley, California, as a bridge between spiritual wisdom and scientific research. It became a hub for exploring consciousness, healing practices, and environmental sustainability through the lens of his insights.
             </p>
             <p className="mb-4 text-lg">
-              Until his passing in 2012, Dr. Kumar embodied the paradox at the heart of his path — a healer without medicine, a teacher without words, a mystic who lived both in silence and in light.
+              Until his passing in 2012, Dr. Kumar embodied the paradox at the heart of his path
+
+ a healer without medicine, a teacher without words, a mystic who lived both in silence and in light.
             </p>
 
             <h2 className="font-serif text-3xl font-bold mb-6 mt-12">Living Legacy</h2>
