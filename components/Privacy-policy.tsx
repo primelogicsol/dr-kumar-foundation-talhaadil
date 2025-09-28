@@ -178,7 +178,7 @@ export default function PrivacyPolicy() {
               <p className="text-left text-emerald-600 italic text-sm xs:text-base sm:text-lg max-w-3xl">
                 At Dr. Kumar Foundation USA, your trust is sacred. We handle your data with the same care and respect with which we share Dr. Kumar’s teachings
 
- with integrity, transparency, and responsibility.
+                with integrity, transparency, and responsibility.
               </p>
             </div>
           </section>

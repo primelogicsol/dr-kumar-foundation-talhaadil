@@ -205,73 +205,55 @@ export default function ContactPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <h3 className="font-serif text-xl font-bold mb-2">USA Headquarters</h3>
+              <h3 className="font-serif text-xl font-bold mb-2">Headquarters</h3>
               <p className="text-muted-foreground mb-4">
-                Sufi Science Center
-                <br />
-                One Loudoun
-                <br />
-                Loudon, Virginia 20147
-                <br />
-                United States
+                Virginia USA
+                
+              
               </p>
               <p className="text-sm">
-                <span className="font-medium">Phone:</span> +1 (916) 699 0091
-                <br />
+                
                 <span className="font-medium">Email:</span>{" "}
                 <a
                   href="mailto:usa@dkf.sufisciencecenter.info"
                   className="break-all text-blue-600 dark:text-blue-400"
                 >
-                  usa@dkf.sufisciencecenter.info
+                  contact_us@dkf.sufisciencecenter.info
                 </a>
               </p>
             </div>
 
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <h3 className="font-serif text-xl font-bold mb-2">Kashmir Center</h3>
+              <h3 className="font-serif text-xl font-bold mb-2">Asia Region</h3>
               <p className="text-muted-foreground mb-4">
-                Dr. Kumar Memorial Center
-                <br />
-                45 Dal Lake Road
-                <br />
-                Srinagar, 190001
-                <br />
-                Kashmir, India
+                Kashmir India
+                
               </p>
               <p className="text-sm">
-                <span className="font-medium">Phone:</span> +91 (555) 987-6543
-                <br />
+               
                 <span className="font-medium">Email:</span>{" "}
                 <a
                   href="mailto:kashmir_india@drkumarfoundation.org"
                   className="break-all text-blue-600 dark:text-blue-400"
                 >
-                  kashmir_india@drkumarfoundation.org
+                  contact_asia@drkumarfoundation.org
                 </a>
               </p>
             </div>
 
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <h3 className="font-serif text-xl font-bold mb-2">European Office</h3>
+              <h3 className="font-serif text-xl font-bold mb-2">European Region</h3>
               <p className="text-muted-foreground mb-4">
-                Kumar Foundation Europe
-                <br />
-                27 Harmony Street
-                <br />
-                London, SW1A 1AA
-                <br />
-                United Kingdom
+                London UK
               </p>
               <p className="text-sm">
-                <span className="font-medium">Phone:</span> +44 (20) 1234-5678
-                <br />
+               
                 <span className="font-medium">Email:</span>{" "}
                 <a
                   href="mailto:europe@drkumarfoundation.org"
                   className="break-all text-blue-600 dark:text-blue-400"
                 >
-                  europe@drkumarfoundation.org
+                  contact_europe@drkumarfoundation.org
                 </a>
               </p>
             </div>
