@@ -9,7 +9,7 @@ export default function StatementOfPurpose() {
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
       </Head>
-      <div className="bg-white text-gray-900 min-h-screen font-['Inter']">
+      <div className="bg-white text-gray-900 font-['Inter']">
         <header className="bg-emerald-600 text-white py-6 text-center">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-2">Statement of Purpose</h1>
