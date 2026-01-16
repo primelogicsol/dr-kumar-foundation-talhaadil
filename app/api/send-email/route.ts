@@ -48,14 +48,7 @@ export async function POST(request: Request) {
               While you wait, explore Dr. Kumar's teachings of healing, peace, and spiritual awakening on our platform.
               We're grateful to have you as part of our global community.
             </p>
-            <a
-              href="https://drkumarfoundation.org"
-              style="display: inline-block; background-color: #047857; color: #ffffff; padding: 12px 24px; border-radius: 8px; text-decoration: none; transition: background-color 0.2s;"
-              onmouseover="this.style.backgroundColor='#065f46'"
-              onmouseout="this.style.backgroundColor='#047857'"
-            >
-              Visit Dr. Kumar Foundation
-            </a>
+            
           </div>
           <div style="background-color: #f8fafc; padding: 24px; text-align: center; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
             <p style="color: #4b5563; font-size: 14px;">
