@@ -12,21 +12,47 @@ import FloatingParticles from "@/components/floating-particles"
 import { useState, useEffect } from 'react'
 
 export default function Home() {
-  const [videos, setVideos] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [videos, setVideos] = useState<any[]>([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(false)
 
   useEffect(() => {
-    fetch('https://api.sufipulse.com/youtube/videos-limited')
-      .then(res => res.json())
+    let mounted = true
+
+    fetch("https://api.sufipulse.com/youtube/videos-limited")
+      .then(res => {
+        if (!res.ok) {
+          throw new Error("Network response not ok")
+        }
+        return res.json()
+      })
       .then(data => {
-        setVideos(data);
-        setLoading(false);
+        if (!Array.isArray(data)) {
+          throw new Error("Invalid data format")
+        }
+
+        if (mounted) {
+          setVideos(data)
+          setError(false)
+        }
       })
       .catch(err => {
-        console.error('Error fetching videos:', err);
-        setLoading(false);
-      });
-  }, []);
+        console.error("Error fetching videos:", err)
+        if (mounted) {
+          setError(true)
+          setVideos([])
+        }
+      })
+      .finally(() => {
+        if (mounted) {
+          setLoading(false)
+        }
+      })
+
+    return () => {
+      mounted = false
+    }
+  }, [])
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-950">
@@ -241,43 +267,66 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="media" className="py-12 sm:py-16 md:py-20 bg-white dark:bg-gray-950">
+      <section
+        id="media"
+        className="py-12 sm:py-16 md:py-20 bg-white dark:bg-gray-950"
+      >
         <div className="container px-4 sm:px-6 lg:px-8">
           <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6">
             SufiPulse Media
           </h2>
+
           <p className="text-center text-base sm:text-lg mb-8 md:mb-12 max-w-3xl mx-auto">
             Explore the teachings and legacy of Dr. Kumar through various media formats.
           </p>
-          {loading ? (
-            <div className="text-center py-20">Loading SufiPulse Media...</div>
-          ) : (
+
+          {loading && (
+            <div className="text-center py-20">
+              Loading SufiPulse Media...
+            </div>
+          )}
+
+          {!loading && error && (
+            <div className="text-center py-20 text-red-600">
+              Failed to fetch media. Please try again later.
+            </div>
+          )}
+
+          {!loading && !error && videos.length > 0 && (
             <>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-                {videos.map((video) => (
+                {videos.map((video, index) => (
                   <Link
-                    key={video.id}
-                    href={`https://www.youtube.com/watch?v=${video.id}`}
+                    key={video?.id || index}
+                    href={
+                      video?.id
+                        ? `https://www.youtube.com/watch?v=${video.id}`
+                        : "#"
+                    }
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block"
                   >
-                    <div className="group rounded-lg overflow-hidden flex flex-col h-[280px] md:h-[350px] pb-0">
+                    <div className="group rounded-lg overflow-hidden flex flex-col h-[280px] md:h-[350px]">
                       <img
-                        src={video.thumbnail}
-                        alt={video.title}
-                        className="w-full aspect-video object-cover transition-transform group-hover:scale-105 flex-shrink-0"
+                        src={video?.thumbnail || "/placeholder.svg"}
+                        alt={video?.title || "Video"}
+                        className="w-full aspect-video object-cover transition-transform group-hover:scale-105"
                       />
-                      <div className="p-3 sm:p-4 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col space-y-2 flex-grow">
-                        <h3 className="font-medium text-sm sm:text-base line-clamp-2">{video.title}</h3>
-                        <p className="text-xs sm:text-sm opacity-80">Performance | {video.duration} • {video.views} views</p>
+
+                      <div className="p-3 sm:p-4 bg-gray-100 dark:bg-gray-900 flex-grow">
+                        <h3 className="font-medium text-sm sm:text-base line-clamp-2">
+                          {video?.title || "Untitled Video"}
+                        </h3>
+                        <p className="text-xs sm:text-sm opacity-80">
+                          Performance | {video?.duration || "--"} • {video?.views || "--"} views
+                        </p>
                       </div>
                     </div>
                   </Link>
                 ))}
               </div>
 
-              {/* See More button */}
               <div className="mt-10 text-center">
                 <Link
                   href="/media-library"
