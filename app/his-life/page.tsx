@@ -168,35 +168,32 @@ export default function HisLifePage() {
 
             <h2 className="font-serif text-3xl font-bold mb-6 mt-12">Return as a Qalandar</h2>
             <p className="mb-4 text-lg">
-              In 1998, Dr. Kumar emerged from the forest utterly transformed. He no longer identified himself as a doctor or by his former name. Instead, he lived as a Qalandar
-
- a mystic who transcends religious formalities and social conventions, dwelling in a state of perpetual presence with the Divine.
+            In 1998, Dr. Kumar emerged from the forest profoundly transformed. He no longer identified himself as a doctor or by his former professional identity. Instead, he returned as a Qalandar, a mystic who stands beyond formal labels, religious display, and social convention, rooted in a continuous state of presence with the Divine.
             </p>
             <p className="mb-4 text-lg">
-              He returned to society but lived with no possessions, no fixed abode, and spoke only when necessary. Yet people were drawn to him. Those who spent time in his presence reported experiences of profound peace, spontaneous healing, and answers to their deepest questions
-
- often without him saying a word.
+              
+He reentered society without possessions, without a fixed residence, and without any desire to be known. He spoke rarely, and only when necessary. Yet people were drawn to him. Those who spent time in his presence often described an unexpected stillness, a deep inner clarity, and moments of healing that arose without instruction, ritual, or explanation.
             </p>
             <p className="mb-8 text-lg">
-              This marked the beginning of his wider influence, as seekers from every walk of life and faith tradition began to approach him for guidance and healing.
+            This period marked the quiet beginning of his wider influence. Seekers from different walks of life and faith traditions began approaching him, not as a teacher in the conventional sense, but as a presence that revealed what was already within them.
             </p>
 
-            <h2 className="font-serif text-3xl font-bold mb-6 mt-12">Global Influence</h2>
+            <h2 className="font-serif text-3xl font-bold mb-6 mt-12">Global Reach</h2>
             <p className="mb-4 text-lg">
-              By the late 1990s, Dr. Kumar’s reputation had spread beyond Kashmir. Invited by devotees, he began traveling internationally, carrying his teachings to Europe, North America, and Australia. His message was simple yet transformative: true healing arises not from doing but from being, not from acquisition but from surrender, not from knowledge but from the dissolution of the knower.
+            By the late 2010s and into 2019, Dr. Kumar’s presence had extended far beyond Kashmir. Invited by devotees, he traveled internationally, carrying his way of being to Europe, North America, and Australia. His message remained uncompromisingly simple: true healing arises not from effort but from stillness, not from accumulation but from surrender, not from knowledge but from the dissolution of the one who claims to know.
             </p>
+            <h2 className="font-serif text-3xl font-bold mb-6 mt-12">Institutional Emergence</h2>
             <p className="mb-4 text-lg">
-              In 2005, the Sufi Science Center was established in Berkeley, California, as a bridge between spiritual wisdom and scientific research. It became a hub for exploring consciousness, healing practices, and environmental sustainability through the lens of his insights.
+            In 2022, the Sufi Science Center was established in Virginia and California as a living bridge between inner realization and scientific inquiry. The Center became a space for exploring consciousness, healing practices, and environmental responsibility, not as belief systems, but as lived inquiry informed by direct experience.
             </p>
+            <h2 className="font-serif text-3xl font-bold mb-6 mt-12">A Living Path</h2>
             <p className="mb-4 text-lg">
-              Until his passing in 2012, Dr. Kumar embodied the paradox at the heart of his path
-
- a healer without medicine, a teacher without words, a mystic who lived both in silence and in light.
+            From 2020 onward, the work entered a quieter, more inward phase. Public travel reduced, but the depth of transmission continued through presence, guidance, and the unfolding work of the Sufi Science Center and related initiatives. Dr. Kumar remains alive, embodying the paradox at the heart of his path: a healer without medicine, a teacher beyond words, a mystic who lives simultaneously in silence and in light.
             </p>
-
             <h2 className="font-serif text-3xl font-bold mb-6 mt-12">Living Legacy</h2>
             <p className="mb-8 text-lg">
-              Today, his influence continues to expand through the work of his students, the initiatives of the Dr. Kumar Foundation, and the countless lives touched by his presence. His journey from medicine to mysticism endures as a reminder that the deepest transformations come not through power or possession, but through surrender to the Infinite.
+              
+Today, his influence continues to grow, not as a closed chapter, but as an ongoing movement of awareness. Through students, research initiatives, and lived practice, his journey reflects a simple truth: the deepest transformation does not come from power, identity, or possession, but from returning to what was never absent
             </p>
 
             <div className="flex justify-center mt-12">
