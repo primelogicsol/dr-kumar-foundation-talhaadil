@@ -34,7 +34,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /home/deployerops/coding/projects/sufism/dr-kumar-foundation
+            cd /home/dkf/coding/dkf
             docker compose pull
             docker compose down
             docker compose up -d
