@@ -15,7 +15,7 @@ export async function POST(request: Request) {
 
     // Create Nodemailer transporter
     const transporter = nodemailer.createTransport({
-      host: "smtp.ionos.com",
+      host: "smtp.resend.com",
       port: 465,
       secure: true,
       auth: {
