@@ -25,6 +25,9 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
+          build-args: |
+             EMAIL_USER=${{ secrets.EMAIL_USER }}
+             EMAIL_PASSWORD=${{ secrets.EMAIL_PASSWORD }}
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/drkumar:latest
 
